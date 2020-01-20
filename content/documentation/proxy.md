@@ -8,6 +8,6 @@ Some networks block the default XMPP port (`5222`) so that a proxy is required t
 
 ## Setup
 
-1) Open the connection settings of your client
-2) Specify the proxy type `BOSH`
-3) Enter the URL `https://services.chatbx.eu/http-bind/` as the proxy location
+1. Open the connection settings of your client
+2. Specify the proxy type `BOSH`
+3. Enter the URL `https://services.chatbx.eu/http-bind/` as the proxy location
