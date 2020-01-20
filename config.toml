@@ -1,8 +1,9 @@
-baseURL = "www.chatbx.eu"
+baseURL = "/"
 languageCode = "en-us"
 title = "chatbx.eu"
 themesDir = "themes"
 theme = "hugo-whisper-theme"
+publishdir = "/var/www/chatbx.eu/www.chatbx.eu/public/"
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
