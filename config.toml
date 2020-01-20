@@ -1,6 +1,6 @@
 baseURL = "www.chatbx.eu"
 languageCode = "en-us"
-title = "Chatbx.eu!"
+title = "chatbx.eu"
 themesDir = "themes"
 theme = "hugo-whisper-theme"
 
@@ -18,7 +18,7 @@ summaryLength = 30
     weight = 1
 
 [[menu.main]]
-    name = "Docs"
+    name = "Documentation"
     url = "/docs/"
     weight = 2
 
@@ -27,7 +27,7 @@ summaryLength = 30
   homepage_button_link = '/docs'
   homepage_button_text = 'Read our Documentation'
   homepage_intro = '@Adam, pls enter text here'
-#  homepage_image = '/images/terminal.gif'
+  homepage_image = '/static/chatbx.png'
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
