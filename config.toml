@@ -33,7 +33,7 @@ summaryLength = 0
     weight = 4
 
 [[menu.main]]
-    name = "Web Client "
+    name = "Web Client"
     url = "https://web.chatbx.eu/"
     weight = 5
 
