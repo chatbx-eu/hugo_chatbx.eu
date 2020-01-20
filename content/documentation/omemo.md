@@ -1,6 +1,7 @@
 ---
-title: 'OMEMO End-To-End Encryption - chatbx.eu Documentation'
+title: 'OMEMO End-To-End Encryption'
 date: 2020-01-20T20:00:00+1:00
+weight: 7
 ---
 
 [OMEMO](https://conversations.im/omemo/) is a way of end-to-end encryption that offers the best usability for XMPP users.

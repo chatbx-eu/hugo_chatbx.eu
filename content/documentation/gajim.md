@@ -1,6 +1,7 @@
 ---
-title: 'Gajim - chatbx.eu Documentation'
+title: 'Gajim'
 date: 2020-01-20T20:00:00+1:00
+weight: 10
 ---
 
 [Gajim](https://gajim.org/) is our preferred XMPP client for Windows.
@@ -11,7 +12,7 @@ Download installer or portable version from: https://gajim.org/download/#windows
 
 # Encryption
 
-To enable end-to-end encryption with [OMEMO](omemo.md), a plug-in is required. This can be installed from within Gajim:
+To enable end-to-end encryption with [OMEMO](/documentation/omemo), a plug-in is required. This can be installed from within Gajim:
 
 1) Gajim > Plugins > Available: Install the OMEMO plug-in
 2) Gajim > Plugins > Installed: Activate the OMEMO plug-in 
