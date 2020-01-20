@@ -13,7 +13,7 @@ We recommend the following, as they all offer the features you would expect from
 * We also have a [web client](/documentation/web_client) for your browser
 * You can also use [multiple clients](/documentation/multi_client)
 
-# Comparison
+## Comparison
 
 (Note: This is currently a work in progress)
 

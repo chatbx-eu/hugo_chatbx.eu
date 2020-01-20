@@ -6,11 +6,11 @@ weight: 10
 
 [Gajim](https://gajim.org/) is our preferred XMPP client for Windows.
 
-# Installation
+## Installation
 
 Download installer or portable version from: https://gajim.org/download/#windows
 
-# Encryption
+## Encryption
 
 To enable end-to-end encryption with [OMEMO](/documentation/omemo), a plug-in is required. This can be installed from within Gajim:
 
@@ -23,7 +23,7 @@ To enable end-to-end encryption with [OMEMO](/documentation/omemo), a plug-in is
 	- The fingerprints can be marked as trusted here
 	- It may be required to try and send an encrypted message first, before all fingerprints appear
 
-# Tips & Tricks
+## Tips & Tricks
 
 * There is a setting to enable single-window-mode, which displays all chats and the roster in a single window
 * There is a plug-in (needs to be installed via the plug-in manager first) that offers inline preview of received images

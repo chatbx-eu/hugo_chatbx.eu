@@ -6,7 +6,7 @@ weight: 7
 
 [OMEMO](https://conversations.im/omemo/) is a way of end-to-end encryption that offers the best usability for XMPP users.
 
-# Basics
+## Basics
 
 * A key is generated per device (= XMPP Client)
 * The keys are automatically published over XMPP, so that others can encrypt messages to you
@@ -18,7 +18,7 @@ weight: 7
 	- If the fingerprints displayed in your contacts client and your own client match, you can trust this key
 	- Messages you send will be encrypted to trusted devices and messages you receive form trusted devices will be displayed as secure
 
-# Tips & Tricks
+## Tips & Tricks
 
 * If you are using multiple devices, be sure that all your clients trust the fingerprints of the other devices; otherwise, the different clients can't see the messages of each other
 * If you trust a new fingerprint of a chat partner, be sure to do so on all your devices, as each has their own trust store
