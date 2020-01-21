@@ -4,7 +4,7 @@ date: 2020-01-20T20:00:00+1:00
 weight: 8
 ---
 
-You can easily use multiple clients for the same XMPP account. For example, you can have one on your laptop and one your mobile phone.
+You can easily use multiple clients for the same XMPP account. For example, you can have one on your laptop and one on your mobile phone.
 
 * "Message Archive Management" (MAM) will ensure that all messages are synced to all clients
 * "Message Carbons" will ensure that messages are delivered to all clients currently online
