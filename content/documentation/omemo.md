@@ -1,10 +1,10 @@
 ---
 title: 'OMEMO End-To-End Encryption'
 date: 2020-01-20T20:00:00+1:00
-weight: 7
+weight: 4
 ---
 
-[OMEMO](https://conversations.im/omemo/) is a way of end-to-end encryption that offers the best usability for XMPP users.
+[OMEMO](https://conversations.im/omemo/) is a way of end-to-end encryption that offers the best usability for XMPP users. It is based on the [Signal Protocol](https://en.wikipedia.org/wiki/Signal_Protocol), which implements state-of-the-art cryptography for instant messaging.
 
 ## Basics
 

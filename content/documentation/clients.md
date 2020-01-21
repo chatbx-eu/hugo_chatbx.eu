@@ -1,7 +1,7 @@
 ---
 title: 'Clients'
 date: 2020-01-20T20:00:00+1:00
-weight: 6
+weight: 3
 ---
 
 There are [many different clients](https://xmpp.org/software/clients.html) that can be used for XMPP.
