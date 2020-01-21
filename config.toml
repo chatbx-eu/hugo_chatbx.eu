@@ -42,7 +42,7 @@ summaryLength = 0
   homepage_button_link = '/documentation/getting_started'
   homepage_button_text = 'Get Started'
   homepage_intro = 'Decentralized Instant Messaging with XMPP.'
-  #homepage_image = '/chatbx.png'
+  homepage_image = '/network.png'
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
