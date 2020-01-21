@@ -39,7 +39,6 @@ summaryLength = 0
     weight = 5
 
 [params]
-  google_analytics_id=""
   homepage_button_link = '/documentation'
   homepage_button_text = 'Documentation'
   homepage_intro = 'Decentralized Instant Messaging with XMPP'
