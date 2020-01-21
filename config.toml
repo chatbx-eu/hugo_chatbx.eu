@@ -39,24 +39,21 @@ summaryLength = 0
     weight = 5
 
 [params]
-  homepage_button_link = '/documentation'
-  homepage_button_text = 'Documentation'
-  homepage_intro = 'Decentralized Instant Messaging with XMPP'
+  homepage_button_link = '/documentation/getting_started'
+  homepage_button_text = 'Get Started'
+  homepage_intro = 'Decentralized Instant Messaging with XMPP.'
   #homepage_image = '/chatbx.png'
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
 
   [params.homepage_meta_tags]
-    meta_description = "TODO"
-    meta_og_title = "TODO"
+    meta_description = "chatbx.eu: Decentralized Instant Messaging with XMPP"
+    meta_og_title = "chatbx.eu"
     meta_og_type = "website"
-    meta_og_url = "TODO"
+    meta_og_url = "https://www.chatbx.eu/"
     meta_og_image = "chatbx.png"
-    meta_og_description = "TODO"
-    meta_twitter_card = "TODO"
-    meta_twitter_site = "TODO"
-    meta_twitter_creator = "TODO"
+    meta_og_description = "chatbx.eu: Decentralized Instant Messaging with XMPP"
 
   [params.logo]
       mobile = "chatbx.png"
