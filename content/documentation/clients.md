@@ -7,6 +7,7 @@ weight: 3
 There are [many different clients](https://xmpp.org/software/clients.html) that can be used for XMPP.
 
 We recommend the following, as they all offer the features you would expect from a modern instant messaging client:
+
 - For Windows: [Gajim](/documentation/gajim)
 - For Android: [Pix-Art Messenger](https://jabber.pix-art.de/) or [Conversations](https://conversations.im/)
 - For Linux: [Dino](https://dino.im/)
