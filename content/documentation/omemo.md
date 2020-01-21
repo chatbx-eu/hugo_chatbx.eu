@@ -22,3 +22,4 @@ weight: 4
 
 * If you are using multiple devices, be sure that all your clients trust the fingerprints of the other devices; otherwise, the different clients can't see the messages of each other
 * If you trust a new fingerprint of a chat partner, be sure to do so on all your devices, as each has their own trust store
+* File transfers are also encrypted like messages by OMEMO
