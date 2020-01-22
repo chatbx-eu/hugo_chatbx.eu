@@ -20,7 +20,7 @@ summaryLength = 0
 
 [[menu.main]]
     name = "Getting Started"
-    url = "/documentation/getting_started"
+    url = "/documentation/getting_started/"
     weight = 2
 
 [[menu.main]]
@@ -39,7 +39,7 @@ summaryLength = 0
     weight = 5
 
 [params]
-  homepage_button_link = '/documentation/getting_started'
+  homepage_button_link = '/documentation/getting_started/'
   homepage_button_text = 'Get Started'
   homepage_intro = 'Decentralized Instant Messaging with XMPP.'
   homepage_image = '/network.png'
