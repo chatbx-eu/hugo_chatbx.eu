@@ -15,7 +15,8 @@ Hagenkamp 63
 Contact
 ```
 Phone: +49 5066 709102
-E-Mail: maze [at] mzhost.de
-XMPP: marcel@chatbx.eu
+E-Mail: marcel [at] chatbx.de
+XMPP: marcel [at] chatbx.eu
+
 XMPP (for technical inquiries): admin@chatbx.eu
 ```
