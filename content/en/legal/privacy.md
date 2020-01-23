@@ -8,10 +8,9 @@ Your privacy is important to us.
 
 ## This Website
 
-- no tracking tools or cookies used
+- no tracking tools or cookies used - no data processed by third parties
 - we only use TLS encrypted HTTPS connections
 - only error logs contain IP address, deleted every 30 days
-
 
 ### Note
 Our firewall logs all connection for a very short time period in order to detect attacks. If our firewall detects specific attacks, it will save those logs which contains the following information:
@@ -34,3 +33,8 @@ Those logs are stored until they are no longer needed for legal steps or securit
 
 ### Note
 It is hard for us to detect spam which is invoked from another XMPP server. We do not analyse any traffic (not even for this). If you encounter spam, please get in contact with us: `admin@chatbx.eu`.
+
+## GDPR
+You have the right to correct, receive, block or delete your personal data. If you delete your account on our XMPP Server, all "personal data" will be deleted after 30 days (this includes the HTTP Error logs and uploaded files). If you send E-Mails to us, we "process" your data in order to answer you. 
+
+Because it sounds nice: We are GDRP compliant :-)
