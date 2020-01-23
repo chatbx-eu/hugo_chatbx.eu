@@ -8,7 +8,7 @@
 				<div class="lang_menu_container">
 					<a class="lang_menu" href="#/">{{ $.Site.Params.footer.language }}</a>
 					<div class="lang_menu_content">
-						{{ range $.Site.Home.AllTranslations }}
+						{{ range $.AllTranslations }}
 							{{if eq .Lang $.Site.Language.Lang}}
 								<a class="lang_selected">{{ .Language.LanguageName }}</a>
 							{{else}}
