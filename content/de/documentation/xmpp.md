@@ -2,7 +2,7 @@
 title: 'Über XMPP'
 date: 2020-01-20T20:00:00+1:00
 weight: 2
-url: dokumentation/xmpp
+url: de/dokumentation/xmpp
 ---
 
 [XMPP](https://en.wikipedia.org/wiki/XMPP) ist ein Standard für föderales Instant Messaging. *Föderal* bedeutet, dass Benutzer von einem Server mit Benutzern von allen anderen Servern schreiben können. Das ist vergleichbar mit E-Mails, die an beliebige E-Mail-Adressen geschickt werden können, auch wenn diese auf einem anderen Server sind (wenn sich der Teil hinter dem '@' Zeichen unterscheidet). Eine "Addresse" eines XMPP-Accounts, die sogenannte JID oder "Jabber ID", sieht sogar genau so aus wie eine E-Mail-Adresse (z.B. `alice@chatbx.eu`). Aus historischen Gründen wird XMPP manchmal auch "Jabber" genannt.

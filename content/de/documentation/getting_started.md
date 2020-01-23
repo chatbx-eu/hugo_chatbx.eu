@@ -2,7 +2,7 @@
 title: 'Loslegen'
 date: 2020-01-20T20:00:00+1:00
 weight: 1
-url: dokumentation/loslegen
+url: de/dokumentation/loslegen
 ---
 
 Dies ist eine kurze Anleitung wie man einen Account erstellt und anfängt mit Leuten zu schreiben. Für allgemeine Informationen warum XMPP toll ist: [Über XMPP](../xmpp/).
