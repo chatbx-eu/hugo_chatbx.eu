@@ -4,7 +4,7 @@ date: 2020-01-20T20:00:00+1:00
 weight: 6
 ---
 
-Some networks block the default XMPP port (`5222`) so that a proxy is required to connect. We offer a [BOSH proxy](https://en.wikipedia.org/wiki/BOSH_(protocol)) that allows you to connect via port `443` (the default port for https traffic, which is likely not blocked).
+Some networks block the default XMPP port (`5222`) so that a proxy is required to connect. We offer a {{< external_link "https://en.wikipedia.org/wiki/BOSH_(protocol)" "BOSH proxy" >}} that allows you to connect via port `443` (the default port for https traffic, which is likely not blocked).
 
 ## Setup
 

@@ -5,15 +5,15 @@ weight: 10
 url: /de/dokumentation/gajim
 ---
 
-[Gajim](https://gajim.org/) ist unser bevorzugter Client für Windows.
+{{< external_link "https://gajim.org/" "Gajim" >}} ist unser bevorzugter Client für Windows.
 
 ## Installation
 
-Download eines Insatllers oder der Portable Version: https://gajim.org/download/#windows
+Download eines Insatllers oder der Portable Version: {{< external_link "https://gajim.org/download/#windows" >}}
 
 ## Verschlüsselung
 
-Ein Plug-in ist erforderlich um Ende-zu-Ende Verschlüsselung mit [OMEMO](/documentation/omemo/) zu verwenden. Dies kann innerhalb von Gajim insatlliert werden.
+Ein Plug-in ist erforderlich um Ende-zu-Ende Verschlüsselung mit [OMEMO](../omemo/) zu verwenden. Dies kann innerhalb von Gajim insatlliert werden.
 
 1. Gajim > Plugins > Verfügbar: Installieren des OMEMO Plug-ins
 2. Gajim > Plugins > Installiert: Aktivieren des OMEMO Plug-ins
@@ -28,4 +28,4 @@ Ein Plug-in ist erforderlich um Ende-zu-Ende Verschlüsselung mit [OMEMO](/docum
 
 * Es gibt eine Einstellung die den Ein-Fenster-Modus aktiviert; hierbei werden alle Chats und der Roster in einem einzelnen Fenster angezeigt
 * Es gibt ein Plug-in (muss erst mit dem Plug-in Manager installiert werden), das einem Vorschaubilder für empfangene Fotos anzeigt
-* Siehe auch den [ArchWiki Artikel über Gajim](https://wiki.archlinux.org/index.php/Gajim)
+* Siehe auch den {{< external_link "https://wiki.archlinux.org/index.php/Gajim" "ArchWiki Artikel über Gajim" >}}

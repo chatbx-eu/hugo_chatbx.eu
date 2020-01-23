@@ -7,7 +7,7 @@ url: /de/dokumentation/loslegen
 
 Dies ist eine kurze Anleitung wie man einen Account erstellt und anfängt mit Leuten zu schreiben. Für allgemeine Informationen warum XMPP toll ist: [Über XMPP](../xmpp/).
 
-1. Einen neuen Account registrieren: https://accounts.chatbx.eu/
+1. Einen neuen Account registrieren: {{< external_link "https://accounts.chatbx.eu/" >}}
 	- Hinweis: Die JID ("Jabber ID") wird der Nutzername gefolgt von `@chatbx.eu` (z.B. `alice@chatbx.eu`)
 2. Einen [Client](../clients/) installieren
 	- Hinweis: Man kann auch [mehrere clients verwenden](../mehrere_clients/)

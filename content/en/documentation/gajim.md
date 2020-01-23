@@ -4,15 +4,15 @@ date: 2020-01-20T20:00:00+1:00
 weight: 10
 ---
 
-[Gajim](https://gajim.org/) is our preferred XMPP client for Windows.
+{{< external_link "https://gajim.org/" "Gajim" >}} is our preferred XMPP client for Windows.
 
 ## Installation
 
-Download installer or portable version from: https://gajim.org/download/#windows
+Download installer or portable version from: {{< external_link "https://gajim.org/download/#windows" >}}
 
 ## Encryption
 
-To enable end-to-end encryption with [OMEMO](/documentation/omemo/), a plug-in is required. This can be installed from within Gajim:
+To enable end-to-end encryption with [OMEMO](../omemo/), a plug-in is required. This can be installed from within Gajim:
 
 1. Gajim > Plugins > Available: Install the OMEMO plug-in
 2. Gajim > Plugins > Installed: Activate the OMEMO plug-in 
@@ -27,4 +27,4 @@ To enable end-to-end encryption with [OMEMO](/documentation/omemo/), a plug-in i
 
 * There is a setting to enable single-window-mode, which displays all chats and the roster in a single window
 * There is a plug-in (needs to be installed via the plug-in manager first) that offers inline preview of received images
-* See also [ArchWiki article for Gajim](https://wiki.archlinux.org/index.php/Gajim)
+* See also the {{< external_link "https://wiki.archlinux.org/index.php/Gajim" "ArchWiki article for Gajim" >}}

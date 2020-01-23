@@ -24,7 +24,7 @@ Um bestimmte Angriffe zu erkennen, speichert unsere Firewall eine kurze Zeit all
     - Password (Hash)
     - Gespeicherte Nachrichten (MAM) - sofern ihr dies aktiviert habt
     - Hochgeladene Dateien (Fotos) für 30 Tage
-- ihr könnt jederzeit euere [Accountdaten löschen](https://accounts.chatbx.eu/delete). Fotos bleiben unter Umständen noch bis zu 30 Tage auf unserem Servern
+- ihr könnt jederzeit euere {{< external_link "https://accounts.chatbx.eu/delete" "Accountdaten löschen" >}}. Fotos bleiben unter Umständen noch bis zu 30 Tage auf unserem Servern
 - wir empfehlen [Ende-Zu-Ende Verschlüsselung zu aktivieren]() - so ist es unmöglich für anderen, eure Nachrichten mitzulesen (auch für uns).
 - wir teilen keine Informationen mit Dritten. Außnahmen sind XMPP spezifische Informationen (z. B. wenn ihr Nachrichten an einen anderen Servern sendet, oder ein Kontakt von einem anderen Server hinzufügt).
 - wir benutzen ausschließlich TLS verschlüsselte XMPP Verbindungen
