@@ -13,4 +13,4 @@ Wir empfehlen die folgenden, da sie alle Funktionen haben, die man von einem mod
 - Für Android: {{< external_link "https://jabber.pix-art.de/" "Pix-Art Messenger" >}} oder{{< external_link "https://conversations.im/" "Conversations" >}}
 - Für Linux: {{< external_link "https://dino.im/" "Dino" >}}
 - Wir haben außerdem einen [web client](../web_client/) für den Browser
-- Mann kann auch [mehrere Clients](../mehrere_clients/) verwenden
+- Man kann auch [mehrere Clients](../mehrere_clients/) verwenden
