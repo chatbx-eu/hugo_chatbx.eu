@@ -14,7 +14,7 @@ Your privacy is important to us.
 
 
 ### Note
-Our firewall logs all connection for a very short time period in order to detect attacks. If our firewall detects specific attacks, it will save this logs which contains the following information:
+Our firewall logs all connection for a very short time period in order to detect attacks. If our firewall detects specific attacks, it will save those logs which contains the following information:
 IP Address, used Browser, connection Time, used OS, the whole content of a request.
 Those logs are stored until they are no longer needed for legal steps or security improvements. 
 
@@ -30,7 +30,7 @@ Those logs are stored until they are no longer needed for legal steps or securit
 - we only share data with others in accordance with the XMPP protocol (e.g. when you send messages to other servers)
 - we recommend end-to-end encryption so that it is impossible for anyone else (even for our administration crew) to read your message content
 - we only use TLS encrypted XMPP connections
-- the logs contain IP addresses, connection times, and user names. There is no fixed period of time of log clearing. They will be deleted if they reach a specific time. 
+- the logs contain IP addresses, connection times, and user names. There is no fixed period of time of log clearing. They will be deleted if they reach a specific size. 
 
 ### Note
 It is hard for us to detect spam which is invoked from another XMPP server. We do not analyse any traffic (not even for this). If you encounter spam, please get in contact with us: `admin@chatbx.eu`.
