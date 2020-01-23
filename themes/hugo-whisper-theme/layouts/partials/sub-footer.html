@@ -5,12 +5,20 @@
         <div class="sub-footer-inner">
 	      <ul>
 			<li>
-				<select onchange="location = this.value;">
-					<option selected disabled>{{ $.Site.Params.footer.language }}</option>
-					{{ range $.Site.Home.AllTranslations }}
-					<option value="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></option>
-					{{ end }}
-				</select>
+				<div class="lang_menu_container">
+					<a class="lang_menu" href="#/">{{ $.Site.Params.footer.language }}</a>
+					<div class="lang_menu_content">
+						{{ range $.Site.Home.AllTranslations }}
+							{{if eq .Lang $.Site.Language.Lang}}
+								<a class="lang_selected">{{ .Language.LanguageName }}</a>
+							{{else}}
+								<a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+							{{end}}
+						<br />
+						{{ end }}
+						<div class="lang_menu_mask"></div>
+					</div>
+				</div>
 			</li>
 			<li><a href="{{ $.Site.Params.footer.imprintUrl }}">{{ $.Site.Params.footer.imprint }}</a></li>
 			<li><a href="{{ $.Site.Params.footer.privacyUrl }}">{{ $.Site.Params.footer.privacy }}</a></li>
