@@ -17,8 +17,8 @@ To enable end-to-end encryption with [OMEMO](/documentation/omemo/), a plug-in i
 1. Gajim > Plugins > Available: Install the OMEMO plug-in
 2. Gajim > Plugins > Installed: Activate the OMEMO plug-in 
 	- When selecting the OMEMO plug-in, there is a gear in the top-right; you can view your own fingerprint there
-4. In chat windows there is a padlock symbol in the message input field that allows OMEMO encryption to be enabled for this chat
-5. When OMEMO encryption is enabled, there is a shield symbol  in the message input field
+3. In chat windows there is a padlock symbol in the message input field that allows OMEMO encryption to be enabled for this chat
+4. When OMEMO encryption is enabled, there is a shield symbol  in the message input field
 	- A click on this shield symbol shows a dialog with all fingeprints relevant for this chat
 	- The fingerprints can be marked as trusted here
 	- It may be required to try and send an encrypted message first, before all fingerprints appear

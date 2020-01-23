@@ -4,7 +4,7 @@ date: 2020-01-20T20:00:00+1:00
 weight: 1
 ---
 
-Dies ist eine kurze Anleitung wie man einen Account erstellt und anfängt mit Leuten zu schreiben. Für allgemeine Informationen warum XMPP toll ist: [Lies über XMPP](../xmpp/).
+Dies ist eine kurze Anleitung wie man einen Account erstellt und anfängt mit Leuten zu schreiben. Für allgemeine Informationen warum XMPP toll ist: [Über XMPP](../xmpp/).
 
 1. Einen neuen Account registrieren: https://accounts.chatbx.eu/
 	- Hinweis: Die JID ("Jabber ID") wird der Nutzername gefolgt von `@chatbx.eu` (z.B. `alice@chatbx.eu`)
