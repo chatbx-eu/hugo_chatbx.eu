@@ -4,7 +4,7 @@ date: 2020-01-20T20:00:00+1:00
 weight: 2
 ---
 
-Euer Datenschutz ist uns wichtig.  
+Euer Datenschutz ist uns wichtig.
 
 ## Datenschutz: Website
 
@@ -32,3 +32,7 @@ Um bestimmte Angriffe zu erkennen, speichert unsere Firewall eine kurze Zeit all
 
 ### Notiz
 Da wir Daten nicht analysieren oder gar nicht speichern, ist es schwierig unerwünschtes Verhalten wie Spam (von anderen Servern) zu erkennen. Sollten Probleme z. B. mit Spam auftreten, kontaktiert uns über `admin@chatbx.eu`.
+
+## DSGVO / GDPR
+Natürlich gelten alle Regeln der DSGVO. Ihr habt das Recht auf Berichtigung, Auskunft, Sperrung oder Löschung eurer personenbezogenen Daten. Bei einer Accountlöschung werden auch eure Daten gelöscht und sind nach spätestens 30 Tagen (Fotos und Logdateien) auch nicht mehr vorhanden. Es ist euch möglich aktiv zu werden und diese Rechte warzunehmen (Account löschen,  editieren usw). Ansonsten schreibt uns eine Mail.
+Daten werden "verarbeitet", falls ihr uns E-Mails schreibt. Da es sich meist um private Postfächer handelt, werden diese ggf. nicht regelmäßig gelöscht.
