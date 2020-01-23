@@ -24,7 +24,7 @@ Those logs are stored until they are no longer needed for legal steps or securit
 	- password (hash)
 	- stored messages (MAM) - if enabled
 	- uploaded files (photos) for 30 days
-- **you can always delete your account which will deletes all of your stored data** - Maybe some uploaded images will stay up to 30 days. 
+- **you can always delete your account which will delete all of your stored data** - some uploaded images may remain up to 30 days. 
 - we do not analyze any metadata (e.g. message timestamps)
 - we only share data with others in accordance with the XMPP protocol (e.g. when you send messages to other servers)
 - we recommend end-to-end encryption so that it is impossible for anyone else (even for our administration crew) to read your message content
