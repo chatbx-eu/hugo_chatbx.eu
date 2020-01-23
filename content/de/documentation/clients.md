@@ -2,7 +2,7 @@
 title: 'Clients'
 date: 2020-01-20T20:00:00+1:00
 weight: 3
-url: de/dokumentation/clients
+url: /de/dokumentation/clients
 ---
 
 Es gibt [viele verschiedene Clients](https://xmpp.org/software/clients.html), die für XMPP verwendet werden können.

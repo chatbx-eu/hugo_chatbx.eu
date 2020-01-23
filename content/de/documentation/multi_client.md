@@ -2,7 +2,7 @@
 title: 'Mehrere Clients Benutzen'
 date: 2020-01-20T20:00:00+1:00
 weight: 5
-url: de/dokumentation/mehrere_clients
+url: /de/dokumentation/mehrere_clients
 ---
 
 Man kann sehr einfach mehrere Clients für den selben XMPP Account verwenden. Zum Beispiel kann man einen auf dem Laptop und einen auf dem Smartphone haben.
