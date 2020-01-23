@@ -14,12 +14,8 @@ Your privacy is important to us.
 
 
 ### Note
-Our firewall logs all connection for a very short time period in order to detect attacks. If our firewall detects specific attack, it will save this logs which contains the following information:
-    - IP Address
-    - Used Browser
-    - Connection Time
-    - Used OS
-    - The whole content of a request
+Our firewall logs all connection for a very short time period in order to detect attacks. If our firewall detects specific attacks, it will save this logs which contains the following information:
+IP Address, used Browser, connection Time, used OS, the whole content of a request.
 Those logs are stored until they are no longer needed for legal steps or security improvements. 
 
 ## XMPP Server
