@@ -4,8 +4,16 @@
       <div class="col-12">
         <div class="sub-footer-inner">
 	      <ul>
-			<li><a href="/legal/imprint/">Imprint</a></li>
-			<li><a href="/legal/privacy/">Privacy</a></li>
+			<li>
+				<select onchange="location = this.value;">
+					<option selected disabled>{{ $.Site.Params.footer.language }}</option>
+					{{ range $.Site.Home.AllTranslations }}
+					<option value="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></option>
+					{{ end }}
+				</select>
+			</li>
+			<li><a href="{{ $.Site.Params.footer.imprintUrl }}">{{ $.Site.Params.footer.imprint }}</a></li>
+			<li><a href="{{ $.Site.Params.footer.privacyUrl }}">{{ $.Site.Params.footer.privacy }}</a></li>
 		  </ul>
         </div>
       </div>

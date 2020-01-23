@@ -1,5 +1,6 @@
 baseURL = "/"
-languageCode = "en-us"
+languageCode = "en"
+defaultContentLanguage = "en"
 title = "chatbx.eu"
 themesDir = "themes"
 theme = "hugo-whisper-theme"
@@ -13,48 +14,119 @@ pygmentsUseClasses = true
 # See https://gohugo.io/content-management/summaries/
 summaryLength = 0
 
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
+[languages]
+	[languages.en]
+		contentDir = "content/en"
+		languageName = "English"
+		weight = 1
 
-[[menu.main]]
-    name = "Getting Started"
-    url = "/documentation/getting_started/"
-    weight = 2
+		[[languages.en.menu.main]]
+			name = "Home"
+			url = "/"
+			weight = 1
 
-[[menu.main]]
-    name = "Documentation"
-    url = "/documentation/"
-    weight = 3
+		[[languages.en.menu.main]]
+			name = "Getting Started"
+			url = "/documentation/getting_started/"
+			weight = 2
 
-[[menu.main]]
-    name = "Account Registration"
-    url = "https://accounts.chatbx.eu/"
-    weight = 4
+		[[languages.en.menu.main]]
+			name = "Documentation"
+			url = "/documentation/"
+			weight = 3
 
-[[menu.main]]
-    name = "Web Client"
-    url = "https://web.chatbx.eu/"
-    weight = 5
+		[[languages.en.menu.main]]
+			name = "Account Registration"
+			url = "https://accounts.chatbx.eu/"
+			weight = 4
 
-[params]
-  homepage_button_link = '/documentation/getting_started/'
-  homepage_button_text = 'Get Started'
-  homepage_intro = 'Decentralized Instant Messaging with XMPP.'
-  homepage_image = '/network.png'
+		[[languages.en.menu.main]]
+			name = "Web Client"
+			url = "https://web.chatbx.eu/"
+			weight = 5
+			
+		[languages.en.params]
+			homepage_button_link = '/documentation/getting_started/'
+			homepage_button_text = 'Get Started'
+			homepage_intro = 'Decentralized Instant Messaging with XMPP.'
+			homepage_image = '/network.png'
 
-  ## You can enable to add anchor links to header elements
-  # enable_anchor_link = true
+			[languages.en.params.homepage_meta_tags]
+				meta_description = "chatbx.eu: Decentralized Instant Messaging with XMPP"
+				meta_og_title = "chatbx.eu"
+				meta_og_type = "website"
+				meta_og_url = "https://www.chatbx.eu/"
+				meta_og_image = "chatbx.png"
+				meta_og_description = "chatbx.eu: Decentralized Instant Messaging with XMPP"
 
-  [params.homepage_meta_tags]
-    meta_description = "chatbx.eu: Decentralized Instant Messaging with XMPP"
-    meta_og_title = "chatbx.eu"
-    meta_og_type = "website"
-    meta_og_url = "https://www.chatbx.eu/"
-    meta_og_image = "chatbx.png"
-    meta_og_description = "chatbx.eu: Decentralized Instant Messaging with XMPP"
+			[languages.en.params.logo]
+				mobile = "chatbx.png"
+				standard  = "chatbx.png"
+				
+			[languages.en.params.footer]
+				language = "Language"
+				imprint = "Imprint"
+				privacy = "Privacy"
+				imprintUrl = "/legal/imprint/"
+				privacyUrl = "/legal/privacy/"
 
-  [params.logo]
-      mobile = "chatbx.png"
-      standard  = "chatbx.png"
+	
+	[languages.de]
+		contentDir = "content/de"
+		languageName = "Deutsch"
+		weight = 2
+
+		[[languages.de.menu.main]]
+			name = "Startseite"
+			url = "/de/"
+			weight = 1
+
+		[[languages.de.menu.main]]
+			name = "Loslegen"
+			url = "/de/dokumentation/loslegen/"
+			weight = 2
+
+		[[languages.de.menu.main]]
+			name = "Dokumentation"
+			url = "/de/dokumentation/"
+			weight = 3
+
+		[[languages.de.menu.main]]
+			name = "Registrieren"
+			url = "https://accounts.chatbx.eu/"
+			weight = 4
+
+		[[languages.de.menu.main]]
+			name = "Web Client"
+			url = "https://web.chatbx.eu/"
+			weight = 5
+			
+					[[languages.en.menu.main]]
+			name = "Web Client"
+			url = "https://web.chatbx.eu/"
+			weight = 5
+			
+		[languages.de.params]
+			homepage_button_link = '/de/dokumentation/loslegen/'
+			homepage_button_text = 'Loslegen'
+			homepage_intro = 'Dezentralisiertes Instant Messaging mit XMPP.'
+			homepage_image = '/network.png'
+
+			[languages.de.params.homepage_meta_tags]
+				meta_description = "chatbx.eu: Dezentralisiertes Instant Messaging mit XMPP"
+				meta_og_title = "chatbx.eu"
+				meta_og_type = "website"
+				meta_og_url = "https://www.chatbx.eu/de/"
+				meta_og_image = "chatbx.png"
+				meta_og_description = "chatbx.eu: Dezentralisiertes Instant Messaging mit XMPP"
+
+			[languages.de.params.logo]
+				mobile = "chatbx.png"
+				standard  = "chatbx.png"
+				
+			[languages.de.params.footer]
+				language = "Sprache"
+				imprint = "Impressum"
+				privacy = "Datenschutz"
+				imprintUrl = "/de/legal/impressum/"
+				privacyUrl = "/de/legal/datenschutz/"

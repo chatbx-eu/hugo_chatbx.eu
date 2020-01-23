@@ -27,7 +27,7 @@
     {{ partial "header.html" . }}
 
     {{ $displaySidebar := true }}
-    {{ if eq .Title "chatbx.eu" }}
+    {{ if .IsHome }}
     {{ $displaySidebar = false }}
     {{ end }}
 
