@@ -5,7 +5,7 @@ Website of www.chatbx.eu
 
 * Write links like this: `[link text](../other_page/)`
 	* The trailing `/` ensures that no redirect happens
-	* The `../` is required for other `.md` in the same directory as the source of the link
+	* The `../` is required for other `.md` files in the same directory as the source of the link
 * Write external links like this: `{{< external_link "https://example.com/" "link text" >}}`
 	* This adds a nice icon at the end of the link and opens it in a new tab
 * To sort files in a directory, specify a `weight` parameter in the frontmatter; this is sorted ascending, i.e. lower weights first
