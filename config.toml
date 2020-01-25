@@ -5,6 +5,7 @@ title = "chatbx.eu"
 themesDir = "themes"
 theme = "hugo-whisper-theme"
 publishdir = "/var/www/chatbx.eu/www.chatbx.eu/public/"
+disableKinds = ["RSS"]
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
