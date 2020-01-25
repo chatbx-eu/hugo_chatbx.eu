@@ -50,19 +50,19 @@ summaryLength = 0
 			homepage_button_link = '/documentation/getting_started/'
 			homepage_button_text = 'Get Started'
 			homepage_intro = 'Decentralized Instant Messaging with XMPP.'
-			homepage_image = '/network.png'
+			homepage_image = '/img/network.png'
 
 			[languages.en.params.homepage_meta_tags]
 				meta_description = "chatbx.eu: Decentralized Instant Messaging with XMPP"
 				meta_og_title = "chatbx.eu"
 				meta_og_type = "website"
 				meta_og_url = "https://www.chatbx.eu/"
-				meta_og_image = "chatbx.png"
+				meta_og_image = "https://www.chatbx.eu/img/chatbx.png"
 				meta_og_description = "chatbx.eu: Decentralized Instant Messaging with XMPP"
 
 			[languages.en.params.logo]
-				mobile = "chatbx.png"
-				standard  = "chatbx.png"
+				mobile = "/img/chatbx.png"
+				standard  = "/img/chatbx.png"
 				
 			[languages.en.params.footer]
 				language = "Language"
@@ -111,19 +111,19 @@ summaryLength = 0
 			homepage_button_link = '/de/dokumentation/loslegen/'
 			homepage_button_text = 'Loslegen'
 			homepage_intro = 'Dezentralisiertes Instant Messaging mit XMPP.'
-			homepage_image = '/network.png'
+			homepage_image = '/img/network.png'
 
 			[languages.de.params.homepage_meta_tags]
 				meta_description = "chatbx.eu: Dezentralisiertes Instant Messaging mit XMPP"
 				meta_og_title = "chatbx.eu"
 				meta_og_type = "website"
 				meta_og_url = "https://www.chatbx.eu/de/"
-				meta_og_image = "chatbx.png"
+				meta_og_image = "https://www.chatbx.eu/img/chatbx.png"
 				meta_og_description = "chatbx.eu: Dezentralisiertes Instant Messaging mit XMPP"
 
 			[languages.de.params.logo]
-				mobile = "chatbx.png"
-				standard  = "chatbx.png"
+				mobile = "/img/chatbx.png"
+				standard  = "/img/chatbx.png"
 				
 			[languages.de.params.footer]
 				language = "Sprache"
