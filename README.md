@@ -1,5 +1,6 @@
 # hugo_chatbx.eu
-Website of www.chatbx.eu
+
+A website for [chatbx.eu](https://www.chatbx.eu/)
 
 ## Editing
 
