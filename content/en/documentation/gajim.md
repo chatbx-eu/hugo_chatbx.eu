@@ -27,4 +27,6 @@ To enable end-to-end encryption with [OMEMO](../omemo/), a plug-in is required. 
 
 * There is a setting to enable single-window-mode, which displays all chats and the roster in a single window
 * There is a plug-in (needs to be installed via the plug-in manager first) that offers inline preview of received images
+* With Ctrl+Up the last sent message can be edited, e.g. to fix spelling mistakes
+* Pressing Ctrl+Up multiple times cycles through older messages (e.g. for editing & re-sending)
 * See also the {{< external_link "https://wiki.archlinux.org/index.php/Gajim" "ArchWiki article for Gajim" >}}

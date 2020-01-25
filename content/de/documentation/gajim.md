@@ -28,4 +28,6 @@ Ein Plug-in ist erforderlich um Ende-zu-Ende Verschlüsselung mit [OMEMO](../ome
 
 * Es gibt eine Einstellung die den Ein-Fenster-Modus aktiviert; hierbei werden alle Chats und der Roster in einem einzelnen Fenster angezeigt
 * Es gibt ein Plug-in (muss erst mit dem Plug-in Manager installiert werden), das einem Vorschaubilder für empfangene Fotos anzeigt
+* Mit Strg+Nach Oben kann die letzte gesendete Nachricht geändert werden, z.B. um Rechtschreibfehler zu korrigieren
+* Mehrfaches Drücken von Strg+Nach Oben wechselt zu älteren Nachrichten (diese können dann neu gesendet werden)
 * Siehe auch den {{< external_link "https://wiki.archlinux.org/index.php/Gajim" "ArchWiki Artikel über Gajim" >}}
