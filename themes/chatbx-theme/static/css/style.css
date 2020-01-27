@@ -130,6 +130,10 @@ html, body {
 }
 
 #header-menu-mobile {
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity var(--animation-length), visibility 0s var(--animation-length);
+
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -143,10 +147,6 @@ html, body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
-	visibility: hidden;
-	opacity: 0;
-	transition: opacity var(--animation-length), visibility 0s var(--animation-length);
 }
 
 #header-menu-mobile-toggle:focus + #header-menu-mobile {
