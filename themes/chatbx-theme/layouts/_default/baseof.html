@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		{{ if .IsHome }}
+		<title>{{.Site.Title}}</title>
+		{{else}}
 		<title>{{.Title}} - {{.Site.Title}}</title>
+		{{end}}
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		{{ .Site.Hugo.Generator }}
