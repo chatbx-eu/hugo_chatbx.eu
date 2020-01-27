@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8" />
 		<title>{{.Title}} - {{.Site.Title}}</title>
+		<meta charset="UTF-8" />
+		{{ .Site.Hugo.Generator }}
 		<link rel="stylesheet" href="/css/style.css" />
 		<link rel="icon" href="{{ "favicon.png" | absURL}}">
 	</head>
