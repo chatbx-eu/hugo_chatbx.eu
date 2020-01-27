@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>{{.Title}} - {{.Site.Title}}</title>
+		<link rel="stylesheet" href="/css/style.css" />
+		<link rel="icon" href="{{ "favicon.png" | absURL}}">
+	</head>
+	<body>
+		<div id="wrapper">
+			{{ partial "header.html" . }}
+
+			<div id="main">
+				{{ partial "side-menu.html" . }}
+
+				<main id="content">
+					{{ block "main" . }}{{ end }}
+				</main>
+			</div>
+
+			{{ partial "footer.html" . }}
+		</div>
+	</body>
+</html>

@@ -3,7 +3,7 @@ languageCode = "en"
 defaultContentLanguage = "en"
 title = "chatbx.eu"
 themesDir = "themes"
-theme = "hugo-whisper-theme"
+theme = "chatbx-theme"
 publishdir = "/var/www/chatbx.eu/www.chatbx.eu/public/"
 disableKinds = ["RSS"]
 

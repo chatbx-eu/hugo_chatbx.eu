@@ -1,0 +1,7 @@
+{{ define "main" }}
+	<div id="mainpage">
+		<img id="mainpage-image" alt="{{ .Site.Title }}" src="{{ .Site.Params.homepage_image | relURL}}" />
+		{{ .Content }}
+		<a id="mainpage-button" href="{{ .Site.Params.homepage_button_link | relURL }}">{{ .Site.Params.homepage_button_text }}</a>
+	</div>
+{{end}}
