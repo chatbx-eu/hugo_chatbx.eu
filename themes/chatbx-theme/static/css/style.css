@@ -15,15 +15,32 @@ html, body {
 	--c-font-green-highlight: #78d978;
 	--c-font-grey: #444444;
 	--c-font-inverted: #ffffff;
+	--c-bg: #ffffff;
 	--c-bg-grey: #eeeeee;
 	--c-bg-green: #34b734;
 	--c-bg-green-highlight: #78d978;
-	--c-bg: #ffffff;
 	--c-table-border: #dddddd;
+	--c-shadow: grey;
 
 	--animation-length: 0.3s;
 
 	--content-width: 60%;
+}
+
+@media (prefers-color-scheme: dark) {
+	html, body {
+		--c-font: #ffffff;
+		--c-font-green: #34b734;
+		--c-font-green-highlight: #78d978;
+		--c-font-grey: #bbbbbb;
+		--c-font-inverted: #ffffff;
+		--c-bg: #121212;
+		--c-bg-grey: #222222;
+		--c-bg-green: #34b734;
+		--c-bg-green-highlight: #78d978;
+		--c-table-border: #dddddd;
+		--c-shadow: #000000;
+	}
 }
 
 @media (max-width: 1600px) {
@@ -327,7 +344,7 @@ html, body {
 	bottom: 100%;
 
 	background-color: var(--c-bg-grey);
-	box-shadow: 0px 0px 5px grey;
+	box-shadow: 0px 0px 5px var(--c-shadow);
 
 	text-align: center;
 }
