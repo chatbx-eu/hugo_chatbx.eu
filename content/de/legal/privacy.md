@@ -5,7 +5,8 @@ weight: 2
 url: /de/legal/datenschutz
 ---
 
-Euer Datenschutz ist uns wichtig.
+Euer Datenschutz ist uns wichtig. 
+Zusammenfassung: Wir speichern und analysieren keine persönlichen Daten - gespeichert wird nur das, was für unseren Service nötig ist (wie eure Accountdaten). 
 
 ## Datenschutz: Website
 
@@ -13,17 +14,13 @@ Euer Datenschutz ist uns wichtig.
 - wir nutzen ausschließlich TLS verschlüsselte HTTPS Verbindungen
 - wir Protokollieren nur aufgetretene Fehler, mit Verbindungszeit und IP-Adresse. Diese werden nach 30 Tagen gelöscht
 
-
-### Notiz
-Um bestimmte Angriffe zu erkennen, speichert unsere Firewall eine kurze Zeit alle Verbindungsdaten. Sollte eine bestimmte Gruppe von Angriffe erkannt werden, werden alle Verbindungsinformationen protokolliert. Diese Protokolle werden durch keinen Automatismus gelöscht. Sie werden ggf. analysiert um die Sicherheit unseres Servers zu verbessern. Diese Protokolle werden erst bereinigt, wenn sie weder/nicht mehr für rechtliche Schritte, noch der oben genannten Gründe relevant sind.
-
 ## Datenschutz: XMPP Server
 
 - wir speichern nur die Daten, die notwendig für den Betrieb des XMPP Servers sind:
     - Benutzername
     - Password (Hash)
-    - Gespeicherte Nachrichten (MAM) - sofern ihr dies aktiviert habt
-    - Hochgeladene Dateien (Fotos) für 30 Tage
+    - Gespeicherte Nachrichten ([XEP-0313 - Message Archive Management](http://xmpp.org/extensions/xep-0313.html)) - sofern ihr dies aktiviert habt 
+    - Hochgeladene Dateien (Fotos) für 30 Tage ([XEP-363 - HTTP File Upload](http://xmpp.org/extensions/xep-0363.html))
 - ihr könnt jederzeit euere {{< external_link "https://accounts.chatbx.eu/delete" "Accountdaten löschen" >}}. Fotos bleiben unter Umständen noch bis zu 30 Tage auf unserem Servern
 - wir empfehlen [Ende-Zu-Ende Verschlüsselung zu aktivieren]() - so ist es unmöglich für anderen, eure Nachrichten mitzulesen (auch für uns).
 - wir teilen keine Informationen mit Dritten. Außnahmen sind XMPP spezifische Informationen (z. B. wenn ihr Nachrichten an einen anderen Servern sendet, oder ein Kontakt von einem anderen Server hinzufügt).
