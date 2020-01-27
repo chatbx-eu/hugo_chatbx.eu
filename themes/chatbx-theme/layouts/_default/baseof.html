@@ -17,7 +17,8 @@
 		<meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image }}" />
 		<meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
 		{{end}}
-		<link rel="stylesheet" href="/css/style.css" />
+		{{ $style := resources.Get "/css/style.css" | minify }}
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 		<link rel="icon" href="{{ "favicon.png" | absURL}}">
 	</head>
 	<body>
