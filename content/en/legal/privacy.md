@@ -35,4 +35,4 @@ It is hard for us to detect spam which is invoked from another XMPP server. We d
 ## GDPR
 You have the right to correct, receive, block or delete your personal data. If you delete your account on our XMPP Server, all "personal data" will be deleted after 30 days (this includes the HTTP Error logs and uploaded files). If you send E-Mails to us, we "process" your data in order to answer you. 
 
-=> Because it sounds nice and everyone love this: We are GDRP compliant :-)  (we are forced by law, anyway)
+*Because it sounds nice and everyone love this: We are GDRP compliant :-)  (we are forced by law, anyway)*

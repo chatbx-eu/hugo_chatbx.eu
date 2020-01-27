@@ -68,8 +68,10 @@ summaryLength = 0
 				language = "Language"
 				imprint = "Imprint"
 				privacy = "Privacy"
+				termsofuse = "Terms of use"
 				imprintUrl = "/legal/imprint/"
 				privacyUrl = "/legal/privacy/"
+                termsofuseUrl = "/legal/termsofuse/"
 
 	
 	[languages.de]
@@ -102,7 +104,7 @@ summaryLength = 0
 			url = "https://web.chatbx.eu/"
 			weight = 5
 			
-					[[languages.en.menu.main]]
+        [[languages.en.menu.main]]
 			name = "Web Client"
 			url = "https://web.chatbx.eu/"
 			weight = 5
@@ -129,8 +131,10 @@ summaryLength = 0
 				language = "Sprache"
 				imprint = "Impressum"
 				privacy = "Datenschutz"
+				termsofuse = "Nutzungsbedingungen"
 				imprintUrl = "/de/legal/impressum/"
 				privacyUrl = "/de/legal/datenschutz/"
+				termsofuseUrl = "/de/legal/nutzungsbedingungen/"
 
 [privacy]
 	[privacy.disqus]
