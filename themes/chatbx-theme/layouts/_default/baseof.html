@@ -4,6 +4,14 @@
 		<title>{{.Title}} - {{.Site.Title}}</title>
 		<meta charset="UTF-8" />
 		{{ .Site.Hugo.Generator }}
+		{{ if .IsHome}}
+		<meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
+		<meta property="og:title" content="{{ .Site.Params.homepage_meta_tags.meta_og_title }}" />
+		<meta property="og:type" content="{{ .Site.Params.homepage_meta_tags.meta_og_type }}" />
+		<meta property="og:url" content="{{ .Site.Params.homepage_meta_tags.meta_og_url }}" />
+		<meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image }}" />
+		<meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
+		{{end}}
 		<link rel="stylesheet" href="/css/style.css" />
 		<link rel="icon" href="{{ "favicon.png" | absURL}}">
 	</head>
