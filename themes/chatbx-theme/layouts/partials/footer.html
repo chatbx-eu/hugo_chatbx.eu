@@ -1,5 +1,6 @@
 <footer id="footer">
 	<div id="footer-content">
+		{{ if gt (len $.AllTranslations) 0 }}
 		<span class="footer-item lang-menu-container">
 			<a class="lang-menu" href="#/">{{ $.Site.Params.footer.language }}</a>
 			<div class="lang-menu-content">
@@ -14,6 +15,7 @@
 				<div class="lang-menu-mask"></div>
 			</div>
 		</span>
+		{{ end }}
 		<span class="footer-item"><a href="{{ $.Site.Params.footer.termsofuseUrl }}">{{ $.Site.Params.footer.termsofuse }}</a></span>
 		<span class="footer-item"><a href="{{ $.Site.Params.footer.imprintUrl }}">{{ $.Site.Params.footer.imprint }}</a></span>
 		<span class="footer-item"><a href="{{ $.Site.Params.footer.privacyUrl }}">{{ $.Site.Params.footer.privacy }}</a></span>
