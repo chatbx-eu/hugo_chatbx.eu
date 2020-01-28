@@ -5,7 +5,7 @@
 		<div class="post-overview">
 			<h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
 			<span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
-			<p class="post-summary">{{ .Summary }}</p>
+			<p><span class="post-summary">{{ .Summary }}</span></p>
 		</div>
 	{{ end }}
 {{ end }}
