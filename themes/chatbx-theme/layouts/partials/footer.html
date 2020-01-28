@@ -5,11 +5,11 @@
 			<a class="lang-menu" href="#/">{{ i18n "language" }}</a>
 			<div class="lang-menu-content">
 				{{ range $.AllTranslations }}
-					{{if eq .Lang $.Site.Language.Lang}}
+					{{ if eq .Lang $.Site.Language.Lang }}
 						<span class="lang-selected">{{ .Language.LanguageName }}</a>
-					{{else}}
+					{{ else }}
 						<a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
-					{{end}}
+					{{ end }}
 					<br />
 				{{ end }}
 				<div class="lang-menu-mask"></div>

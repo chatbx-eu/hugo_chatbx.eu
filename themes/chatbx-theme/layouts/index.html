@@ -1,7 +1,7 @@
 {{ define "main" }}
 	<div id="mainpage">
-		<img id="mainpage-image" alt="{{ .Site.Title }}" src="{{ .Site.Params.homepage.image | relURL}}" />
+		<img id="mainpage-image" alt="{{ .Site.Title }}" src="{{ .Site.Params.homepage.image | relURL }}" />
 		{{ .Content }}
 		<a id="mainpage-button" href="{{ .Site.Params.homepage.button_link | relURL }}">{{ .Site.Params.homepage.button_text }}</a>
 	</div>
-{{end}}
+{{ end }}
