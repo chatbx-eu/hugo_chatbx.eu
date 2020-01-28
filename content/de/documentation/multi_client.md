@@ -1,6 +1,5 @@
 ---
 title: 'Mehrere Clients Benutzen'
-date: 2020-01-20T20:00:00+1:00
 weight: 5
 url: /de/dokumentation/mehrere_clients
 ---

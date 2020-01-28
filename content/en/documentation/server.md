@@ -1,6 +1,5 @@
 ---
 title: 'chatbx.eu Server'
-date: 2021-01-20T20:00:00+1:00
 weight: 7
 ---
 

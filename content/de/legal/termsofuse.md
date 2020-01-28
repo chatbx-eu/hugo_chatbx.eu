@@ -1,6 +1,5 @@
 ---
 title: 'Nutzungsbedingungen'
-date: 2020-01-27T20:00:00+1:00
 weight: 3
 url: /de/legal/nutzungsbedingungen
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'Loslegen'
-date: 2020-01-20T20:00:00+1:00
 weight: 1
 url: /de/dokumentation/loslegen
 ---
