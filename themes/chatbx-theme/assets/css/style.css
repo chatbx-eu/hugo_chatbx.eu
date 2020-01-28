@@ -29,11 +29,11 @@ html, body {
 
 @media (prefers-color-scheme: dark) {
 	html, body {
-		--c-font: #ffffff;
+		--c-font: #f0f0f0;
 		--c-font-green: #34b734;
 		--c-font-green-highlight: #78d978;
 		--c-font-grey: #bbbbbb;
-		--c-font-inverted: #ffffff;
+		--c-font-inverted: #f0f0f0;
 		--c-bg: #121212;
 		--c-bg-grey: #222222;
 		--c-bg-green: #34b734;
