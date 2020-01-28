@@ -1,0 +1,29 @@
+homepage_button_link = '/documentation/getting_started/'
+homepage_button_text = 'Get Started'
+homepage_intro = 'Decentralized Instant Messaging with XMPP.'
+homepage_image = '/img/network.png'
+
+[homepage_meta_tags]
+	meta_description = "chatbx.eu: Decentralized Instant Messaging with XMPP"
+	meta_og_title = "chatbx.eu"
+	meta_og_type = "website"
+	meta_og_url = "https://www.chatbx.eu/"
+	meta_og_image = "https://www.chatbx.eu/img/chatbx.png"
+	meta_og_description = "chatbx.eu: Decentralized Instant Messaging with XMPP"
+
+[logo]
+	mobile = "/img/chatbx.png"
+	standard  = "/img/chatbx.png"
+
+[footer]
+	language = "Language"
+	imprint = "Imprint"
+	privacy = "Privacy"
+	termsofuse = "Terms of Use"
+	imprintUrl = "/legal/imprint/"
+	privacyUrl = "/legal/privacy/"
+	termsofuseUrl = "/legal/termsofuse/"
+
+[news]
+	back = "Back to news overview"
+	read_more = "read more"

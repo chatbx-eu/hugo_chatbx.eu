@@ -1,0 +1,24 @@
+[[main]]
+	name = "Startseite"
+	url = "/de/"
+	weight = 1
+
+[[main]]
+	name = "Neuigkeiten"
+	url = "/de/news/"
+	weight = 2
+
+[[main]]
+	name = "Dokumentation"
+	url = "/de/dokumentation/"
+	weight = 3
+
+[[main]]
+	name = "Registrieren"
+	url = "https://accounts.chatbx.eu/"
+	weight = 4
+
+[[main]]
+	name = "Web Client"
+	url = "https://web.chatbx.eu/"
+	weight = 5

@@ -1,0 +1,14 @@
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "chatbx.eu"
+theme = "chatbx-theme"
+cleanDestinationDir = true
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm", "sitemap"]
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 0
