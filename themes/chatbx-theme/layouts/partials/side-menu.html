@@ -1,4 +1,4 @@
-{{ if and (not .IsHome) (.CurrentSection) }}
+{{ if and (not .IsHome) (.CurrentSection) (not (eq .Section "news")) }}
 <nav id="side-menu">
 	{{$currentNode := .}}
 	<h4>{{ .FirstSection.Title | humanize }}</h4>

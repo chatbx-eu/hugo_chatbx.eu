@@ -14,6 +14,7 @@ html, body {
 	--c-font-green: #34b734;
 	--c-font-green-highlight: #78d978;
 	--c-font-grey: #444444;
+	--c-font-grey-light: #666666;
 	--c-font-inverted: #ffffff;
 	--c-bg: #ffffff;
 	--c-bg-grey: #eeeeee;
@@ -33,6 +34,7 @@ html, body {
 		--c-font-green: #34b734;
 		--c-font-green-highlight: #78d978;
 		--c-font-grey: #bbbbbb;
+		--c-font-grey-light: #999999;
 		--c-font-inverted: #f0f0f0;
 		--c-bg: #121212;
 		--c-bg-grey: #333333;
@@ -428,4 +430,29 @@ html, body {
 	max-width: 95vw;
 	height: auto;
 	width: auto;
+}
+
+.post-title {
+	margin-bottom: 0.2em;
+}
+
+.post-title a {
+	text-decoration: none;
+}
+
+.post-title a:hover {
+	text-decoration: underline;
+}
+
+.post-date {
+	color: var(--c-font-grey-light);
+}
+
+.post-summary::after {
+	content: "..."
+}
+
+.post-back {
+	display: inline-block;
+	margin-top: 2em;
 }

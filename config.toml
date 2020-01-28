@@ -27,8 +27,8 @@ summaryLength = 0
 			weight = 1
 
 		[[languages.en.menu.main]]
-			name = "Getting Started"
-			url = "/documentation/getting_started/"
+			name = "News"
+			url = "/news/"
 			weight = 2
 
 		[[languages.en.menu.main]]
@@ -72,6 +72,9 @@ summaryLength = 0
 				imprintUrl = "/legal/imprint/"
 				privacyUrl = "/legal/privacy/"
                 termsofuseUrl = "/legal/termsofuse/"
+				
+			[languages.en.params.news]
+				back = "Back to news overview"
 
 	
 	[languages.de]
@@ -85,8 +88,8 @@ summaryLength = 0
 			weight = 1
 
 		[[languages.de.menu.main]]
-			name = "Loslegen"
-			url = "/de/dokumentation/loslegen/"
+			name = "Neuigkeiten"
+			url = "/de/news/"
 			weight = 2
 
 		[[languages.de.menu.main]]
@@ -135,6 +138,9 @@ summaryLength = 0
 				imprintUrl = "/de/legal/impressum/"
 				privacyUrl = "/de/legal/datenschutz/"
 				termsofuseUrl = "/de/legal/nutzungsbedingungen/"
+				
+			[languages.de.params.news]
+				back = "Zurück zur Übersicht"
 
 [privacy]
 	[privacy.disqus]
