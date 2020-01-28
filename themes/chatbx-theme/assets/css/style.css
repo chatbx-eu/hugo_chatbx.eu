@@ -35,7 +35,7 @@ html, body {
 		--c-font-grey: #bbbbbb;
 		--c-font-inverted: #f0f0f0;
 		--c-bg: #121212;
-		--c-bg-grey: #222222;
+		--c-bg-grey: #333333;
 		--c-bg-green: #34b734;
 		--c-bg-green-highlight: #78d978;
 		--c-table-border: #dddddd;
@@ -287,6 +287,21 @@ html, body {
 
 #content table tr:nth-child(even) {
 	background: var(--c-bg-grey);
+}
+
+#content .highlight {
+	background-color: var(--c-bg-grey);
+	border-radius: 5px;
+	padding: 0.5em;
+}
+
+#content .highlight .chroma {
+	margin: 0;
+}
+
+#content code {
+	background-color: var(--c-bg-grey);
+	border-radius: 2px;
 }
 
 #footer {
