@@ -1,29 +1,16 @@
-homepage_button_link = '/de/dokumentation/loslegen/'
-homepage_button_text = 'Loslegen'
-homepage_intro = 'Dezentralisiertes Instant Messaging mit XMPP.'
-homepage_image = '/img/network.png'
+[homepage]
+	button_text = 'Loslegen'
+	button_link = '/de/dokumentation/loslegen/'
+	image = '/img/network.png'
 
-[homepage_meta_tags]
-	meta_description = "chatbx.eu: Dezentralisiertes Instant Messaging mit XMPP"
-	meta_og_title = "chatbx.eu"
-	meta_og_type = "website"
-	meta_og_url = "https://www.chatbx.eu/de/"
-	meta_og_image = "https://www.chatbx.eu/img/chatbx.png"
-	meta_og_description = "chatbx.eu: Dezentralisiertes Instant Messaging mit XMPP"
+	[homepage.meta]
+		description = "chatbx.eu: Dezentralisiertes Instant Messaging mit XMPP"
+		og_title = "chatbx.eu"
+		og_type = "website"
+		og_url = "https://www.chatbx.eu/de/"
+		og_image = "https://www.chatbx.eu/img/chatbx.png"
+		og_description = "chatbx.eu: Dezentralisiertes Instant Messaging mit XMPP"
 
 [logo]
 	mobile = "/img/chatbx.png"
 	standard  = "/img/chatbx.png"
-
-[footer]
-	language = "Sprache"
-	imprint = "Impressum"
-	privacy = "Datenschutz"
-	termsofuse = "Nutzungsbedingungen"
-	imprintUrl = "/de/legal/impressum/"
-	privacyUrl = "/de/legal/datenschutz/"
-	termsofuseUrl = "/de/legal/nutzungsbedingungen/"
-
-[news]
-	back = "Zurück zur Übersicht"
-	read_more = "weiterlesen"

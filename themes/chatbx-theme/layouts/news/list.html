@@ -7,7 +7,7 @@
 			<span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
 			<p class="post-summary">
 				{{ .Summary }}
-				<span class="post-read-more"><a href="{{ .RelPermalink }}">{{ $.Site.Params.news.read_more }}</a></span>
+				<span class="post-read-more"><a href="{{ .RelPermalink }}">{{ i18n "readMore" }}</a></span>
 			</p>
 		</div>
 	{{ end }}

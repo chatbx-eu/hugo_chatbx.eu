@@ -2,5 +2,5 @@
 	<h1 id="title" class="post-title">{{ .Title }}</h1>
 	<span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
 	{{ .Content }}
-	<span class="post-back"><a href="{{ .CurrentSection.RelPermalink }}">{{ $.Site.Params.news.back }}</a></span>
+	<span class="post-back"><a href="{{ .CurrentSection.RelPermalink }}">{{ i18n "backToOverview" }}</a></span>
 {{ end }}

@@ -22,3 +22,19 @@
 	name = "Web Client"
 	url = "https://web.chatbx.eu/"
 	weight = 5
+
+
+[[footer]]
+	name = "Imprint"
+	url = "/legal/imprint/"
+	weight = 1
+
+[[footer]]
+	name = "Privacy"
+	url = "/legal/privacy/"
+	weight = 2
+
+[[footer]]
+	name = "Terms of Use"
+	url = "/legal/termsofuse/"
+	weight = 3
