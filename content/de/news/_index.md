@@ -2,4 +2,4 @@
 title: "Neuigkeiten"
 ---
 
-Hier gibt es Neuigkeiten über [chatbx.eu](/).
+Aktuell sind die [News leider nur auf Englisch](/news/) vorhanden.
