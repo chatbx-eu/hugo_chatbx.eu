@@ -75,6 +75,7 @@ summaryLength = 0
 				
 			[languages.en.params.news]
 				back = "Back to news overview"
+				read_more = "read more"
 
 	
 	[languages.de]
@@ -141,6 +142,7 @@ summaryLength = 0
 				
 			[languages.de.params.news]
 				back = "Zurück zur Übersicht"
+				read_more = "weiterlesen"
 
 [privacy]
 	[privacy.disqus]

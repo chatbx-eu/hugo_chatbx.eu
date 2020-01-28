@@ -448,19 +448,18 @@ html, body {
 	color: var(--c-font-grey-light);
 }
 
-.post-summary {
+.post-read-more {
 	position: relative;
 }
 
-.post-summary::after {
+.post-read-more::before {
 	content: "";
 	position: absolute;
-	left: 0;
+	left: -6em;
 	top: 0;
-	width: 100%;
+	width: 6em;
 	height: 100%;
-	background: linear-gradient(to right, transparent, var(--c-bg-green);
-	/*background-color: var(--c-bg-green);*/
+	background: linear-gradient(to right, transparent, var(--c-bg) 90%);
 }
 
 .post-back {
