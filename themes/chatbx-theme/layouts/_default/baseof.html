@@ -19,7 +19,7 @@
 		{{end}}
 		{{ $style := resources.Get "/css/style.css" | minify }}
 		<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
-		<link rel="icon" href="{{ "favicon.png" | absURL}}">
+		<link rel="icon" href="{{ "favicon.png" | relURL }}">
 	</head>
 	<body>
 		<div id="wrapper">
