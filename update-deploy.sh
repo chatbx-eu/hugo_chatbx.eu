@@ -1,4 +1,5 @@
 #!/bin/sh
 
-git pull origin master
+git fetch origin
+git reset --hard origin/master
 hugo --environment server --minify
