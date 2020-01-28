@@ -22,21 +22,12 @@ A website for [chatbx.eu](https://www.chatbx.eu/)
 	* Don't forget to add the leading language code with a leading slash to the URL, e.g. `/de/somedir/somepage`
 
 ## Build
-...
 
+Run `hugo` to build to `public/` or `hugo server` to host directly. Add the `--minify` option to minify the generated HTML.
 
-**Development Builds:**
+To deploy to `/var/www/` (used for our root server) use `hugo --environment server`; see also `update-deploy.sh`.
 
-Maybe you want to change the publish target directory. Currently the `config.toml` is optimized for building the website on our root server. 
-
-Hugo version which is used:
-
-`Hugo Static Site Generator v0.54.0/extended linux/amd64 BuildDate: 2019-06-04T19:16:36Z`
-
-
-Test site with
+Our root server uses the following Hugo version:
 ```
-hugo server
+Hugo Static Site Generator v0.54.0/extended linux/amd64 BuildDate: 2019-06-04T19:16:36Z
 ```
-
-...
