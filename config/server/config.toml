@@ -1,1 +1,2 @@
+baseUrl = "https://www.chatbx.eu/"
 publishDir = "/var/www/chatbx.eu/www.chatbx.eu/public/"
