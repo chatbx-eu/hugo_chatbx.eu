@@ -209,14 +209,28 @@ html, body {
 	flex-direction: column;
 }
 
-#side-menu h4 {
-	margin-top: 0;
+#side-menu > h4 {
+	margin: 0;
+}
+
+#side-menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#side-menu li {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+#side-menu li li {
+	padding-left: 2em;
 }
 
 .side-menu-item {
 	text-decoration: none;
 	color: var(--c-font);
-	margin-bottom: 1em;
 	font-size: 90%;
 }
 

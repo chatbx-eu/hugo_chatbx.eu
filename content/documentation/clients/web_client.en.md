@@ -1,6 +1,6 @@
 ---
 title: 'Web Client'
-weight: 10
+weight: 3
 ---
 
 We have a web-client that allows you to chat in your browser. Go to {{< external_link "https://web.chatbx.eu/" >}} to log in.

@@ -1,9 +1,6 @@
 {{ if and (not .IsHome) (.CurrentSection) (not (eq .Section "news")) }}
 <nav id="side-menu">
-	{{ $currentNode := . }}
 	<h4>{{ .FirstSection.Title | humanize }}</h4>
-	{{ range (where .Site.RegularPages "Section" .Section) sort .Site.RegularPages ".Weight" }}
-		<a class="side-menu-item{{ if eq .File.UniqueID $currentNode.File.UniqueID }} side-menu-item-active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
-	{{ end }}
+	{{ partial "recursive-side-menu.html" (dict "section" .FirstSection "currentPage" .) }}
 </nav>
 {{ end }}

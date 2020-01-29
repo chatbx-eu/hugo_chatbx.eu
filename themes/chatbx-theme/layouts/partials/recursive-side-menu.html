@@ -1,0 +1,10 @@
+<ul>
+{{ range sort .section.Pages ".Weight" }}
+	<li>
+		<a class="side-menu-item{{ if eq .File.UniqueID $.currentPage.File.UniqueID }} side-menu-item-active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+		{{ if .Pages }}
+			{{ partial "recursive-side-menu.html" (dict "section" . "currentPage" $.currentPage) }}
+		{{ end }}
+	</li>
+{{ end }}
+</ul>

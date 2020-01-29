@@ -1,6 +1,6 @@
 ---
 title: 'Gajim'
-weight: 10
+weight: 2
 ---
 
 {{< external_link "https://gajim.org/" "Gajim" >}} is our preferred XMPP client for Windows.

@@ -1,9 +1,7 @@
 [en]
-	contentDir = "content/en"
 	languageName = "English"
 	weight = 1
 
 [de]
-	contentDir = "content/de"
 	languageName = "Deutsch"
 	weight = 2
