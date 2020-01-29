@@ -1,5 +1,6 @@
 ---
 title: "POST TITLE"
+slug: URL-TITLE
 date: {{ .Date }}
-slug: url-title
+draft: true
 ---
