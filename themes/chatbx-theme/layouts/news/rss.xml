@@ -12,6 +12,13 @@
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}}{{ end }} - {{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
     <description>Recent news on {{ .Site.Title }}</description>
+    <image>
+      <url>{{ .Site.Params.logo.standard | absURL }}</url>
+      <title>{{ .Site.Title }}</title>
+      <link>{{ .Site.Home.Permalink }}</link>
+      <width>64</width>
+      <height>64</height>
+    </image>
     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
     <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
