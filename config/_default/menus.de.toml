@@ -10,7 +10,7 @@
 
 [[main]]
 	name = "Dokumentation"
-	url = "/de/dokumentation/"
+	url = "/de/documentation/"
 	weight = 3
 
 [[main]]
@@ -26,15 +26,15 @@
 
 [[footer]]
 	name = "Impressum"
-	url = "/de/legal/impressum/"
+	url = "/de/legal/imprint/"
 	weight = 1
 
 [[footer]]
 	name = "Datenschutz"
-	url = "/de/legal/datenschutz/"
+	url = "/de/legal/privacy/"
 	weight = 2
 
 [[footer]]
 	name = "Nutzungsbedingungen"
-	url = "/de/legal/nutzungsbedingungen/"
+	url = "/de/legal/terms/"
 	weight = 3

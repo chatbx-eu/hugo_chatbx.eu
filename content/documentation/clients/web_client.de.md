@@ -1,7 +1,6 @@
 ---
 title: 'Web Client'
 weight: 10
-url: /de/dokumentation/web_client
 ---
 
 Wir bieten einen Web Client an, der es erlaubt im Browser zu chatten. Unter {{< external_link "https://web.chatbx.eu/" >}} kann man sich anmelden.

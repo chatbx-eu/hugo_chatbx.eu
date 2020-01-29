@@ -1,7 +1,6 @@
 ---
 title: 'Gajim'
 weight: 10
-url: /de/dokumentation/gajim
 ---
 
 {{< external_link "https://gajim.org/" "Gajim" >}} ist unser bevorzugter Client für Windows.

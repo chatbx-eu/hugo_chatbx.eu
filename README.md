@@ -10,17 +10,15 @@ A website for [chatbx.eu](https://www.chatbx.eu/)
 * Write external links like this: `{{< external_link "https://example.com/" "link text" >}}`
 	* This adds a nice icon at the end of the link and opens it in a new tab
 * To sort files in a directory, specify a `weight` parameter in the frontmatter; this is sorted ascending, i.e. lower weights first
-* To disable the border around images append `#noborder` to the image URL
+* To create nested sections, create an `_index.md` in a folder; this is then the parent for the nested pages
 * If possible, update all translations at once to keep them in sync
 
 ## Translations
 
-* Each translation has its own subdirectory in `content`, e.g. `content/de`
-* File names *must* match the ones from the English version, i.e. the one in `content/en`
+* Each translation has its own file suffix, e.g. `some_page.en.md` and `some_page.de.md`
+* File names *must* match the ones from the English (base)version
 	* This ensures that Hugo knows which files are translated versions of each other
 * To translate the title of a page, change the `title` parameter in the frontmatter
-* To translate the URL of a page, specify a `url` parameter in the frontmatter
-	* Don't forget to add the leading language code with a leading slash to the URL, e.g. `/de/somedir/somepage`
 
 ## Build
 

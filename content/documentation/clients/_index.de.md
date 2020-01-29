@@ -1,7 +1,6 @@
 ---
 title: 'Clients'
 weight: 3
-url: /de/dokumentation/clients
 ---
 
 Es gibt {{< external_link "https://xmpp.org/software/clients.html" "viele verschiedene Clients" >}}, die für XMPP verwendet werden können.

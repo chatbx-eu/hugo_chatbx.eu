@@ -1,7 +1,6 @@
 ---
 title: 'Datenschutz'
 weight: 2
-url: /de/legal/datenschutz
 ---
 
 Euer Datenschutz ist uns wichtig. 

@@ -1,7 +1,6 @@
 ---
 title: 'Impressum'
 weight: 1
-url: /de/legal/impressum
 ---
 
 Angaben gemäß § 5 TMG:

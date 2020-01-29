@@ -1,7 +1,6 @@
 ---
 title: 'Nutzungsbedingungen'
 weight: 3
-url: /de/legal/nutzungsbedingungen
 ---
 
 Die Nutzung unserer Dienste ist für jeden Kostenlos. 

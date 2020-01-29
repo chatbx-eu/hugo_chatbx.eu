@@ -1,7 +1,6 @@
 ---
 title: 'chatbx.eu Server'
 weight: 7
-url: /de/dokumentation/server
 ---
 
 Diese Seite zeigt eine Übersicht der technischen Aspekte und Eigenschaften unseres XMPP Servers.

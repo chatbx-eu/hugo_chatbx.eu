@@ -1,7 +1,6 @@
 ---
 title: 'Loslegen'
 weight: 1
-url: /de/dokumentation/loslegen
 ---
 
 Dies ist eine kurze Anleitung wie man einen Account erstellt und anfängt mit Leuten zu schreiben. Für allgemeine Informationen warum XMPP toll ist: [Über XMPP](../xmpp/).
