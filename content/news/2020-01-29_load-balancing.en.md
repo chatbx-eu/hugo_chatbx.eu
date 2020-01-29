@@ -9,4 +9,6 @@ The following graphic shows an overview of our setup:
 
 ![Load Balancing Overview](/img/load-balancing.svg)
 
+We already tested multiple scenarios, including full server failures; the backup server always successfully handled the situation. The tests were conducted on the live system.
+
 As always, users likely won't notice any of this behind-the-scenes work.
