@@ -463,6 +463,7 @@ html, body {
 
 .post-read-more {
 	position: relative;
+	white-space: nowrap;
 }
 
 .post-read-more::before {
