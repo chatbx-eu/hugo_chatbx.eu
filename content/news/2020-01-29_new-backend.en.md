@@ -6,6 +6,8 @@ date: 2020-01-29T01:11:05+01:00
 Tonight we finished the migration to a new database backend. We now have a proper MySQL database, which has a few advantages over our previous solution:
 
 - Virtually unlimited storage (whereas the previous solution was limited to 2 GiB)
+  - Through this, we increased the maximum number of stored offline messages to 500
+  - Maybe we will increase this number even more in the future
 - Better backup and data security strategies
 
 Additionally, we updated our version of ejabberd, the XMPP server software we use. This mainly simplifies a few of our administrative tasks.
