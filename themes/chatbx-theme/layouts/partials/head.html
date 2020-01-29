@@ -17,7 +17,7 @@
 	<meta property="og:description" content="{{ .Site.Params.homepage.meta.og_description }}" />
 {{ end }}
 
-{{ $style := slice (resources.Get "/css/style.css") (resources.Get "/css/code.css") | resources.Concat "/css/style.css" | resources.Minify }}
+{{ $style := slice (resources.Get "/css/style.css") (resources.Get "/css/code.css") | resources.Concat "/css/style.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 
 <link rel="icon" href="{{ "favicon.png" | relURL }}">
