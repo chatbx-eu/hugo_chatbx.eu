@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="28cm" height="24cm" viewBox="238 119 543 465" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ec32a4" x="400" y="200" width="220" height="93"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="400" y="200" width="220" height="93"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="510" y="234.381">
+      <tspan x="510" y="234.381">Load Balancer/</tspan>
+      <tspan x="510" y="250.381">Failover Detection</tspan>
+      <tspan x="510" y="266.381">(HAProxy)</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="510" y1="140.972" x2="510" y2="190.264"/>
+    <polygon style="fill: #000000" points="510,197.764 505,187.764 510,190.264 515,187.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="510,197.764 505,187.764 510,190.264 515,187.764 "/>
+  </g>
+  <ellipse style="fill: #000000" cx="510" cy="130" rx="10" ry="10"/>
+  <g>
+    <rect style="fill: #78d978" x="560" y="380" width="220" height="93"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="560" y="380" width="220" height="93"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="670" y="422.381">
+      <tspan x="670" y="422.381">Chatbx.eu</tspan>
+      <tspan x="670" y="438.381">XMPP Server 02</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #78d978" x="240" y="380" width="220" height="93"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="240" y="380" width="220" height="93"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="350" y="414.381">
+      <tspan x="350" y="414.381">Chatbx.eu</tspan>
+      <tspan x="350" y="430.381">XMPP Server 01</tspan>
+      <tspan x="350" y="446.381">(Backup Service)</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="510,293 510,336 350,336 350,369.282 "/>
+    <polygon style="fill: #000000" points="350,376.782 345,366.782 350,369.282 355,366.782 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="350,376.782 345,366.782 350,369.282 355,366.782 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="510,293 510,336 670,336 670,370.264 "/>
+    <polygon style="fill: #000000" points="670,377.764 665,367.764 670,370.264 675,367.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="670,377.764 665,367.764 670,370.264 675,367.764 "/>
+  </g>
+  <g>
+    <path style="fill: #bfbfbf" d="M 440 530.333 C 467.2,522.583 480.8,520 508,520 C 535.2,520 548.8,522.583 576,530.333 L 576,571.667 C 548.8,579.417 535.2,582 508,582 C 480.8,582 467.2,579.417 440,571.667 L 440,530.333z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 440 530.333 C 467.2,522.583 480.8,520 508,520 C 535.2,520 548.8,522.583 576,530.333 L 576,571.667 C 548.8,579.417 535.2,582 508,582 C 480.8,582 467.2,579.417 440,571.667 L 440,530.333"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 440 530.333 C 467.2,538.083 480.8,540.667 508,540.667 C 535.2,540.667 548.8,538.083 576,530.333"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="508" y="560.048">
+      <tspan x="508" y="560.048">Database</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="670,474.006 670,558.75 585.736,558.75 "/>
+    <polygon style="fill: #000000" points="578.236,558.75 588.236,553.75 585.736,558.75 588.236,563.75 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="578.236,558.75 588.236,553.75 585.736,558.75 588.236,563.75 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="350,473 350,558.75 430.264,558.75 "/>
+    <polygon style="fill: #000000" points="437.764,558.75 427.764,563.75 430.264,558.75 427.764,553.75 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="437.764,558.75 427.764,563.75 430.264,558.75 427.764,553.75 "/>
+  </g>
+</svg>
