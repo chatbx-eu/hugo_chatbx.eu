@@ -11,4 +11,4 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
-summaryLength = 30
+summaryLength = 5

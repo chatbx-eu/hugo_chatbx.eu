@@ -10,6 +10,7 @@ A website for [chatbx.eu](https://www.chatbx.eu/)
 * Write external links like this: `{{< external_link "https://example.com/" "link text" >}}`
 	* This adds a nice icon at the end of the link and opens it in a new tab
 * To sort files in a directory, specify a `weight` parameter in the frontmatter; this is sorted ascending, i.e. lower weights first
+* To disable the border around images append `#noborder` to the image URL
 * If possible, update all translations at once to keep them in sync
 
 ## Translations
