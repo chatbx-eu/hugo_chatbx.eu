@@ -24,9 +24,9 @@ A website for [chatbx.eu](https://www.chatbx.eu/)
 
 Run `hugo` to build to `public/` or `hugo server` to host directly. Add the `--minify` option to minify the generated HTML.
 
-To deploy to `/var/www/` (used for our root server) use `hugo --environment server`; see also `update-deploy.sh`.
+To deploy to `/var/www/` (used for our root server) use `hugo --environment server`.
 
 Our root server uses the following Hugo version:
 ```
-Hugo Static Site Generator v0.54.0/extended linux/amd64 BuildDate: 2019-06-04T19:16:36Z
+Hugo Static Site Generator v0.63.2-934EE21F/extended linux/amd64 BuildDate: 2020-01-27T12:20:42Z
 ```
