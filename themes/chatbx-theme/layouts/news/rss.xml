@@ -1,11 +1,8 @@
 {{- /* adapted from default rss template from Hugo */ -}}
-{{- /* TODO: hugo 0.54 compat $pctx := . */ -}}
-{{- $pctx := .Data -}}
+{{- $pctx := . -}}
 {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
-{{- /* TODO: hugo 0.54 compat $pages := $pctx.RegularPages */ -}}
-{{- $pages := $pctx.Pages -}}
-{{- /* TODO: hugo 0.54 compat $limit := .Site.Config.Services.RSS.Limit */ -}}
-{{- $limit := 0 -}}
+{{- $pages := $pctx.RegularPages -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
 {{- end -}}
