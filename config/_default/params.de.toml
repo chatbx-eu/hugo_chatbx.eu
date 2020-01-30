@@ -1,6 +1,6 @@
 [homepage]
 	button_text = 'Loslegen'
-	button_link = '/de/dokumentation/loslegen/'
+	button_link = '/de/documentation/getting_started/'
 	image = '/img/network.png'
 
 	[homepage.meta]
