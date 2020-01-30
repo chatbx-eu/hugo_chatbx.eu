@@ -7,4 +7,4 @@ Wir bieten einen Web Client an, der es erlaubt im Browser zu chatten. Unter {{< 
 
 * Der Web Client benutzt {{< external_link "https://conversejs.org/" "Converse.js" >}}
 * Einfach mit dem Benutzernamen (ohne das `@chatbx.eu`) und Passwort aus der Registrierung anmelden
-* Wir empfehlen, den Haken bei "Diesem Gerät wird vertraut" nicht zu setzen, da ansonsten ein neues [OMEMO](../omemo/) Gerät zu dem Account hinzugefügt wird
+* Wir empfehlen, den Haken bei "Diesem Gerät wird vertraut" nicht zu setzen, da ansonsten ein neues [OMEMO]({{< relref "omemo" >}}) Gerät zu dem Account hinzugefügt wird

@@ -4,9 +4,9 @@ A website for [chatbx.eu](https://www.chatbx.eu/)
 
 ## Editing
 
-* Write links like this: `[link text](../other_page/)`
-	* The trailing `/` ensures that no redirect happens
-	* The `../` is required for other `.md` files in the same directory as the source of the link
+* Write links like to other markdown files like this: `[link text]({{< relref "other_page" >}})`
+	* This finds the correct markdown file, even if it is in another directory/section
+	* To link to a different language, use `[link text]({{< relref path="other_page" lang="de" >}})`
 * Write external links like this: `{{< external_link "https://example.com/" "link text" >}}`
 	* This adds a nice icon at the end of the link and opens it in a new tab
 * To sort files in a directory, specify a `weight` parameter in the frontmatter; this is sorted ascending, i.e. lower weights first

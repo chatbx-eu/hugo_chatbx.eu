@@ -7,12 +7,12 @@ There are {{< external_link "https://xmpp.org/software/clients.html" "many diffe
 
 We recommend the following, as they all offer the features you would expect from a modern instant messaging client:
 
-- For Windows: [Gajim](../gajim/)
+- For Windows: [Gajim]({{< relref "gajim" >}})
 - For Android: {{< external_link "https://jabber.pix-art.de/" "Pix-Art Messenger" >}} or {{< external_link "https://conversations.im/" "Conversations" >}}
 - For iOS: {{< external_link "https://chatsecure.org/" "ChatSecure" >}}
 - For Linux: {{< external_link "https://dino.im/" "Dino" >}}
-- We also have a [web client](../web_client/) for your browser
-- You can also use [multiple clients](../multi_client/)
+- We also have a [web client]({{< relref "web_client" >}}) for your browser
+- You can also use [multiple clients]({{< relref "multi_client" >}})
 
 ## Comparison
 
