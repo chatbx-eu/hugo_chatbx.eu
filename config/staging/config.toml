@@ -1,0 +1,2 @@
+baseUrl = "https://staging.www.chatbx.eu/"
+publishDir = "/var/www/chatbx.eu/staging.www.chatbx.eu/public/"
