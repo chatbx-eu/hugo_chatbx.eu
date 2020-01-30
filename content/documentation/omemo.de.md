@@ -1,6 +1,6 @@
 ---
 title: 'OMEMO Ende-zu-Ende Verschlüsselung'
-weight: 4
+weight: 5
 ---
 
 {{< external_link "https://conversations.im/omemo/" "OMEMO" >}} ist eine Ende-zu-Ende Verschlüsselung die eine einfache Bedienung für XMPP Benutzer hat. Sie basiert auf dem {{< external_link "https://en.wikipedia.org/wiki/Signal_Protocol" "Signal Protocol" >}}, das modernste Kryptographie für Instant Messaging implementiert.
