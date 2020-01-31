@@ -18,5 +18,4 @@ E-Mail / XMPP: marcel [at] chatbx.de
 Abuse or technical contact: E-Mail / XMPP: admin@chatbx.eu
 ```
 
-For any other issues - for example you just want to say hello - you can an write an E-Mail to `hello@chatbx.eu`
-There are a lot people who are wanted to help. 
+For any other issues - for example you just want to say hello - you can an write an e-mail to `hello@chatbx.eu`. There are many people willing to help.
