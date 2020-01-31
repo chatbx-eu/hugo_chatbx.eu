@@ -11,7 +11,7 @@ Download installer or portable version from: {{< external_link "https://gajim.or
 
 ## Encryption
 
-To enable end-to-end encryption with [OMEMO](../omemo/), a plug-in is required. This can be installed from within Gajim:
+To enable end-to-end encryption with [OMEMO]({{< relref "omemo" >}}), a plug-in is required. This can be installed from within Gajim:
 
 1. Gajim > Plugins > Available: Install the OMEMO plug-in
 2. Gajim > Plugins > Installed: Activate the OMEMO plug-in 

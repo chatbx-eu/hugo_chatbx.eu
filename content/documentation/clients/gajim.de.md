@@ -1,6 +1,6 @@
 ---
 title: 'Gajim'
-weight: 10
+weight: 2
 ---
 
 {{< external_link "https://gajim.org/" "Gajim" >}} ist unser bevorzugter Client für Windows.
@@ -11,7 +11,7 @@ Download eines Insatllers oder der Portable Version: {{< external_link "https://
 
 ## Verschlüsselung
 
-Ein Plug-in ist erforderlich um Ende-zu-Ende Verschlüsselung mit [OMEMO](../omemo/) zu verwenden. Dies kann innerhalb von Gajim insatlliert werden.
+Ein Plug-in ist erforderlich um Ende-zu-Ende Verschlüsselung mit [OMEMO]({{< relref "omemo" >}}) zu verwenden. Dies kann innerhalb von Gajim insatlliert werden.
 
 1. Gajim > Plugins > Verfügbar: Installieren des OMEMO Plug-ins
 2. Gajim > Plugins > Installiert: Aktivieren des OMEMO Plug-ins

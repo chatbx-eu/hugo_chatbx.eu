@@ -17,10 +17,10 @@ Zusammenfassung: Wir speichern und analysieren keine persönlichen Daten - gespe
 - wir speichern nur die Daten, die notwendig für den Betrieb des XMPP Servers sind:
     - Benutzername
     - Password (Hash)
-    - Gespeicherte Nachrichten ([XEP-0313 - Message Archive Management](http://xmpp.org/extensions/xep-0313.html)) - sofern ihr dies aktiviert habt 
-    - Hochgeladene Dateien (Fotos) für 30 Tage ([XEP-363 - HTTP File Upload](http://xmpp.org/extensions/xep-0363.html))
+    - Gespeicherte Nachrichten ({{< external_link "http://xmpp.org/extensions/xep-0313.html" "XEP-0313 - Message Archive Management" >}}) - sofern ihr dies aktiviert habt 
+    - Hochgeladene Dateien (Fotos) für 30 Tage ({{< external_link "http://xmpp.org/extensions/xep-0363.html" "XEP-363 - HTTP File Upload" >}})
 - ihr könnt jederzeit euere {{< external_link "https://accounts.chatbx.eu/delete" "Accountdaten löschen" >}}. Fotos bleiben unter Umständen noch bis zu 30 Tage auf unserem Servern
-- wir empfehlen [Ende-Zu-Ende Verschlüsselung zu aktivieren]() - so ist es unmöglich für anderen, eure Nachrichten mitzulesen (auch für uns).
+- wir empfehlen [Ende-Zu-Ende Verschlüsselung zu aktivieren]({{< relref "omemo" >}}) - so ist es unmöglich für anderen, eure Nachrichten mitzulesen (auch für uns).
 - wir teilen keine Informationen mit Dritten. Außnahmen sind XMPP spezifische Informationen (z. B. wenn ihr Nachrichten an einen anderen Servern sendet, oder ein Kontakt von einem anderen Server hinzufügt).
 - wir benutzen ausschließlich TLS verschlüsselte XMPP Verbindungen
 - wir analysieren keine Metadaten und speichern (mit Außnahme der Anmeldeinformationen - siehe nächsten Punkt) sie auch nicht 

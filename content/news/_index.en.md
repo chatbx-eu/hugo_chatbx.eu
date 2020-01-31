@@ -2,4 +2,4 @@
 title: "News"
 ---
 
-Posts about current events on [chatbx.eu](/).
+Posts about current events on chatbx.eu

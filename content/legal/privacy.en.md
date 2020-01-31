@@ -17,12 +17,12 @@ In short: We dont store or analyse data of you and only collect data which is ne
 - we only store the following data that you provide:
 	- username (may be a pseudonym)
 	- password (hash)
-	- stored messages ([XEP-0313 - Message Archive Management](http://xmpp.org/extensions/xep-0313.html)) for chats and groups. Only if you enabled it.
-	- uploaded files (photos) for 30 days ([XEP-363 - HTTP File Upload](http://xmpp.org/extensions/xep-0363.html))
+	- stored messages ({{< external_link "http://xmpp.org/extensions/xep-0313.html" "XEP-0313 - Message Archive Management" >}}) for chats and groups. Only if you enabled it.
+	- uploaded files (photos) for 30 days ({{< external_link "http://xmpp.org/extensions/xep-0363.html" "XEP-363 - HTTP File Upload" >}})
 - **you can always {{< external_link "https://accounts.chatbx.eu/delete" "delete your account" >}} which will delete all of your stored data** - some uploaded images may remain up to 30 days. 
 - we do not analyze any metadata (e.g. message timestamps)
 - we only share data with others in accordance with the XMPP protocol (e.g. when you send messages to other servers)*
-- we recommend end-to-end encryption so that it is impossible for anyone else (even for our administration crew) to read your message content
+- we recommend [end-to-end encryption]({{< relref "omemo" >}}) so that it is impossible for anyone else (even for our administration crew) to read your message content
 - we only use TLS encrypted XMPP connections
 - the logs the connection time of a user (with username) and his IP address (in most cases anonymized but for maintenance reasons we have to enable for short periods). Thy will be deleted every 24 hours. 
 
