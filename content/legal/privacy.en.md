@@ -24,8 +24,7 @@ In short: We dont store or analyse data of you and only collect data which is ne
 - we only share data with others in accordance with the XMPP protocol (e.g. when you send messages to other servers)*
 - we recommend end-to-end encryption so that it is impossible for anyone else (even for our administration crew) to read your message content
 - we only use TLS encrypted XMPP connections
-- the logs contain IP addresses, connection times, and user names. There is no fixed period of time of log clearing. They will be deleted if they reach a specific size. 
-
+- the logs the connection time of a user (with username) and his IP address (in most cases anonymized but for maintenance reasons we have to enable for short periods). Thy will be deleted every 24 hours. 
 
 
 ### Note

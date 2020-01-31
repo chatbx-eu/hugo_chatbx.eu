@@ -24,10 +24,10 @@ Zusammenfassung: Wir speichern und analysieren keine persönlichen Daten - gespe
 - wir teilen keine Informationen mit Dritten. Außnahmen sind XMPP spezifische Informationen (z. B. wenn ihr Nachrichten an einen anderen Servern sendet, oder ein Kontakt von einem anderen Server hinzufügt).
 - wir benutzen ausschließlich TLS verschlüsselte XMPP Verbindungen
 - wir analysieren keine Metadaten und speichern (mit Außnahme der Anmeldeinformationen - siehe nächsten Punkt) sie auch nicht 
-- unsere XMPP Protokolle enthalten IP-Adressen, Verbindungszeit und Nutzernamen. Diese Protokolle werden nicht in einem festen Zeitintervall gelöscht, lediglich, wenn sie eine bestimmte größe erreichen. 
+- die Server Protokolle enthalten die Verbindungszeit eines Benutzers mit seinem Benutzernamen und seiner IP-Addresse (i.d.R. anonymisiert - allerdings für Wartungszwecke wird der Anonymisierungsdienst bis zum Ende der Wartungsarbeiten deaktiviert). Diese Protokolle werden alle 24 Stunden gelöscht. 
 
 ### Notiz
-Da wir Daten nicht analysieren oder gar nicht speichern, ist es schwierig unerwünschtes Verhalten wie Spam (von anderen Servern) zu erkennen. Sollten Probleme z. B. mit Spam auftreten, kontaktiert uns über `admin@chatbx.eu`.
+Da wir Daten nicht analysieren oder gar nicht erst speichern, ist es schwierig unerwünschtes Verhalten wie Spam (von anderen Servern) zu erkennen. Sollten Probleme z. B. mit Spam auftreten, kontaktiert uns über `admin@chatbx.eu`.
 
 ## DSGVO / GDPR
 Natürlich gelten alle Regeln der DSGVO. Ihr habt das Recht auf Berichtigung, Auskunft, Sperrung oder Löschung eurer personenbezogenen Daten. Bei einer Accountlöschung werden auch eure Daten gelöscht und sind nach spätestens 30 Tagen (Fotos und Logdateien) auch nicht mehr vorhanden. Es ist euch möglich aktiv zu werden und diese Rechte warzunehmen (Account löschen,  editieren usw). Ansonsten schreibt uns eine Mail.
