@@ -1,6 +1,7 @@
 ---
 title: 'Loslegen'
 weight: 1
+aliases: [../start]
 ---
 
 Dies ist eine kurze Anleitung wie man einen Account erstellt und anfängt mit Leuten zu schreiben. Für allgemeine Informationen warum XMPP toll ist: [Über XMPP]({{< relref "xmpp" >}}).

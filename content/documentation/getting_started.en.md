@@ -1,6 +1,7 @@
 ---
 title: 'Getting Started'
 weight: 1
+aliases: [../start]
 ---
 
 This is a brief guide on how to setup an account and start to chat. Want to know what this is all about? [Read about XMPP]({{< relref "xmpp" >}}).
