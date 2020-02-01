@@ -450,6 +450,7 @@ html, body {
 
 #mainpage-button:hover {
 	background-color: var(--c-bg-green-highlight);
+	box-shadow: 0px 0px 10px var(--c-font-green-highlight);
 }
 
 #mainpage-image {
