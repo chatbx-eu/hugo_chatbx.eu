@@ -20,7 +20,9 @@
 {{ $style := slice (resources.Get "/css/style.css") (resources.Get "/css/code.css") (resources.Get "/css/code-dark.css") | resources.Concat "/css/style.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 
-<link rel="icon" href="{{ "favicon.png" | relURL }}">
+<link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="{{ "favicon.ico" | relURL }}" />
+<link rel="icon" type="image/png" sizes="152x152" href="{{ "favicon-152.png" | relURL }}" />
+<link rel="apple-touch-icon-precomposed" type="image/png" sizes="152x152" href="{{ "favicon-152.png" | relURL }}" />
 
 {{ if eq .Section "news" }}
 {{ with .OutputFormats.Get "rss" }}
