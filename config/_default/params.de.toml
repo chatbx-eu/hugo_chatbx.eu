@@ -4,12 +4,12 @@
 	image = '/img/network.png'
 
 	[homepage.meta]
-		description = "chatbx.eu: Dezentralisiertes Instant Messaging mit XMPP"
+		description = "Dezentralisiertes Instant Messaging mit XMPP"
 		og_title = "chatbx.eu"
 		og_type = "website"
 		og_url = "https://www.chatbx.eu/de/"
 		og_image = "https://www.chatbx.eu/img/chatbx.png"
-		og_description = "chatbx.eu: Dezentralisiertes Instant Messaging mit XMPP"
+		og_description = "Dezentralisiertes Instant Messaging mit XMPP"
 
 [logo]
 	mobile = "/img/chatbx.png"
