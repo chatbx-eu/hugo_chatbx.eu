@@ -1,6 +1,7 @@
 {{ define "main" }}
 	<h1 id="title" class="post-title">{{ .Title }}</h1>
 	<span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
+	<a class="post-category" href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a>
 	{{ .Content }}
 	<span class="post-back"><a href="{{ .FirstSection.RelPermalink }}">{{ i18n "backToOverview" }}</a></span>
 {{ end }}
