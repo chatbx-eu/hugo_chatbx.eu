@@ -476,6 +476,16 @@ html, body {
 	color: var(--c-font-grey-light);
 }
 
+.post-category {
+	color: var(--c-font-grey-light) !important;
+	text-decoration: none;
+	margin-left: 1em;
+}
+
+.post-category:hover {
+	text-decoration: underline;
+}
+
 .post-read-more {
 	position: relative;
 	white-space: nowrap;

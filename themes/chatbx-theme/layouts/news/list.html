@@ -25,12 +25,19 @@
 	</div>
 	{{ end }}
 
+
 	<h1 id="title">{{ .Title }}</h1>
 	{{ .Content }}
-	{{ range sort .Pages ".Date" "desc" }}
+
+	{{ $posts := .RegularPages }}
+	{{ if .Parent.IsHome }}
+		{{ $posts = (where .Site.RegularPages "FirstSection.File.UniqueID" "eq" $.File.UniqueID) }}
+	{{ end }}
+	{{ range sort $posts ".Date" "desc" }}
 		<div class="post-overview">
 			<h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
 			<span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
+			<a class="post-category" href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a>
 			<p class="post-summary">
 				{{ .Summary | plainify }}
 				{{ if .Truncated }}
@@ -38,5 +45,8 @@
 				{{ end }}
 			</p>
 		</div>
+	{{ end }}
+	{{ if not .Parent.IsHome }}
+		<span class="post-back"><a href="{{ .FirstSection.RelPermalink }}">{{ i18n "backToOverview" }}</a></span>
 	{{ end }}
 {{ end }}

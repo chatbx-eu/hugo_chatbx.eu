@@ -2,6 +2,7 @@
 {{- $pctx := . -}}
 {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
 {{- $pages := $pctx.RegularPages -}}
+{{- if .Parent.IsHome -}}{{- $pages = (where .Site.RegularPages "FirstSection.File.UniqueID" "eq" $.File.UniqueID) -}}{{- end -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
