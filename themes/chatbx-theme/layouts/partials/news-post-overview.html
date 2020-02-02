@@ -1,5 +1,5 @@
-{{ define "main" }}
-	<h1 id="title" class="post-title">{{ .Title }}</h1>
+<div class="post-overview">
+	<h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
 	<span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
 	<span class="post-tags">
 		{{- $taxonomy := "tags" -}}
@@ -17,6 +17,10 @@
 			{{- end -}}
 		{{- end -}}
 	</span>
-	{{ .Content }}
-	<span class="post-back"><a href="{{ .CurrentSection.RelPermalink }}">{{ i18n "backToOverview" }}</a></span>
-{{ end }}
+	<p class="post-summary">
+		{{ .Summary | plainify }}
+		{{ if .Truncated }}
+			<span class="post-read-more"><a href="{{ .RelPermalink }}">{{ i18n "readMore" }}</a></span>
+		{{ end }}
+	</p>
+</div>

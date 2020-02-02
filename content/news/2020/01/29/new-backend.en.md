@@ -1,6 +1,7 @@
 ---
 title: "New Database Backend"
 date: 2020-01-29T01:11:05+01:00
+tags: ["server"]
 ---
 
 Tonight we finished the migration to a new database backend. We now have a proper MySQL database, which has a few advantages over our previous solution:

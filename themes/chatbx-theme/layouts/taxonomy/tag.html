@@ -1,0 +1,7 @@
+{{ define "main" }}
+	<h1 id="title">Tagged '{{ .Title }}'</h1>
+	{{ .Content }}
+	{{ range sort .Pages ".Date" "desc" }}
+		{{ partial "news-post-overview.html" . }}
+	{{ end }}
+{{ end }}

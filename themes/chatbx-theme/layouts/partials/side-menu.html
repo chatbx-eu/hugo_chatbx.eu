@@ -1,4 +1,4 @@
-{{ if and (not .IsHome) (.CurrentSection) (not (eq .Section "news")) }}
+{{ if and (not .IsHome) (.CurrentSection) (not (eq .Section "news")) (not (eq .Kind "taxonomy")) }}
 <nav id="side-menu">
 	<h4>{{ .FirstSection.Title | humanize }}</h4>
 	{{ partial "recursive-side-menu.html" (dict "section" .FirstSection "currentPage" .) }}

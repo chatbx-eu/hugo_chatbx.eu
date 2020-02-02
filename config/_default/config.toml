@@ -5,7 +5,7 @@ languageCode = "en"
 defaultContentLanguage = "en"
 
 cleanDestinationDir = true
-disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
+disableKinds = ["taxonomyTerm", "sitemap"]
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true

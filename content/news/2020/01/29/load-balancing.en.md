@@ -1,6 +1,7 @@
 ---
 title: "Load Balancing"
 date: 2020-01-29T12:36:32Z
+tags: ["server"]
 ---
 
 We introduced a new feature for our server deployment: load balancing. This means that multiple server instances can be used to handle client connections. This raises the maximum amount of users that can use our services. Additionally, our maintainance work is simplified, as there is now a failover mechanism.

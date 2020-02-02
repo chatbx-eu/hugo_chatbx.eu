@@ -28,15 +28,6 @@
 	<h1 id="title">{{ .Title }}</h1>
 	{{ .Content }}
 	{{ range sort .Pages ".Date" "desc" }}
-		<div class="post-overview">
-			<h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-			<span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
-			<p class="post-summary">
-				{{ .Summary | plainify }}
-				{{ if .Truncated }}
-					<span class="post-read-more"><a href="{{ .RelPermalink }}">{{ i18n "readMore" }}</a></span>
-				{{ end }}
-			</p>
-		</div>
+		{{ partial "news-post-overview.html" . }}
 	{{ end }}
 {{ end }}

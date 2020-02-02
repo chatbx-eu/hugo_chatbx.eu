@@ -497,6 +497,20 @@ html, body {
 	margin-top: 2em;
 }
 
+.post-tags {
+	color: var(--c-font-grey-light);
+	margin-left: 1em;
+}
+
+.post-tags > a {
+	color: var(--c-font-grey-light) !important;
+	text-decoration: none;
+}
+
+.post-tags > a:hover {
+	text-decoration: underline;
+}
+
 #rss-icon {
 	float: right;
 	width: 1em;
