@@ -2,4 +2,4 @@
 title: "News"
 ---
 
-Posts about current events on chatbx.eu
+All news about chatbx.eu
