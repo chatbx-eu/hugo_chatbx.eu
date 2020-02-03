@@ -3,6 +3,7 @@ theme = "chatbx-theme"
 
 languageCode = "en"
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 cleanDestinationDir = true
 disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]

@@ -5,12 +5,12 @@
 
 [[main]]
 	name = "News"
-	url = "/news/"
+	url = "/en/news/"
 	weight = 2
 
 [[main]]
 	name = "Documentation"
-	url = "/documentation/"
+	url = "/en/documentation/"
 	weight = 3
 
 [[main]]
@@ -26,15 +26,15 @@
 
 [[footer]]
 	name = "Imprint"
-	url = "/legal/imprint/"
+	url = "/en/legal/imprint/"
 	weight = 1
 
 [[footer]]
 	name = "Privacy"
-	url = "/legal/privacy/"
+	url = "/en/legal/privacy/"
 	weight = 2
 
 [[footer]]
 	name = "Terms of Use"
-	url = "/legal/terms/"
+	url = "/en/legal/terms/"
 	weight = 3
