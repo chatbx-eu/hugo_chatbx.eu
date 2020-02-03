@@ -5,19 +5,18 @@ draft: true
 author: "Marcel"
 ---
 
-## Vorwort
-
-Da wir jetzt eine News-Abteilung haben, haben wir uns gedacht, wir nutzen diese zwischendurch auch als Blog um Erfahrungen usw. auszutauschen. Wir haben so einen Raum, an dem wir auch etwas Salopper sprechen und ihr habt die Gelegenheit, uns etwas besser kennenzulernen. Wir kennzeichnen diese Art von Artikeln mit [Misc]
+**Preface:** With our new news section, we thought we let you take part in more informal experience reports from us. These kind of posts will appear in the *blog* sub-section of our news section. We take them as opportunity to talk about different aspects regarding XMPP server hosting and let you get to know us a bit better.
 
 ----
 
-In den letzten Tagen gab es ein Problem mit der In-Band-Registration. Dieses Problem wurde behoben. 
-Eine kurze Geschichte dazu: 
-Durch unser Load-Balancing Setup haben wir die Möglichkeit wahrgenommen, keinerlei IP-Adressen zum Backend weiterzuleiten. Dies nahmen wir als willkommenes "Privacy Feature" an. Doch die In-Band-Registrierung besitzt, wie im Spam-Manifest empfohlen, ein Limit pro IP-Adresse; 1x pro 6 Minuten. 
+In the last few days there appeared a problem in our in-band registration. This problem is fixed now, but we'd like to tell the story behind it:
 
-Da aber das Backend nur die Firewall-Adresse gesehen hat, gingen laut ejabberd alle Registrierungen von der Firewall aus. Aufgefallen ist das Problem, als sich User meldeten, die beim ersten Versuch mit einer Meldung das ihr Registrierungslimit erreicht sei, blockiert worden sind. Erster Gedanke ging in Richtung Carrier-Grade NAT (ohne Dual-Stack Lite - wir haben vollen IPv6 Support) aber sehr bald sind wir auf das Architekturproblem aufmerksam geworden. Wir hatten uns ein globales Limit von maximal einer Registrierung alle sechs Minuten gebaut. 
-Inzwischen nutzen wir diverse Proxy Features um die IP-Adressen durchzureichen - dafür verwerfen wir die Logs aber in kürzeren Perioden bzw speicher Verbindungen gar nicht erst. Ein notwendiger Kompromiss.
+While migrating to our [load-balancing setup]({{< relref "load-balancing" >}}), we took the opportunity to not send any real IP addresses to our backend. This was a welcome "privacy feature" for us. However, the in-band registration has, as recommended in the {{< external_link "https://github.com/JabberSPAM/jabber-spam-fighting-manifesto" "Spam Manifesto" >}}, a rate-limit for registrations per IP address: 1 registration per 6 minutes.
 
-**Inzwischen ist es so gelöst, das wir nur Warnings in den Logs auftauchen. Während Wartungsarbeiten, protkollieren wir allerdings wer mit welchen Account und mit welcher IP-Adresse sich verbindet. Dies benötigen wir z. B. um unser Load-Balancing zu konfigurieren. Deshalb ist aktuell noch von IP-Adressen in unserer Datenschutzerklärung die rede.**
+With no real IP addresses being forwared to our backend, our ejabberd server could only see the IP address of our firewal; all registrations appeared to come from the same address. This error occurred to us when a user reported they had hit the registration limit on their first registration attempt. First thoughts went to blaming carrier-grade NAT (without dual-stack lite - we have full IPv6 support), but soon we noticed the problem in our architure. In essence, we had created a *global* limit that only a single user could register every 6 minutes.
 
-\- Marcel
+We fixed the problem by using different proxy features to hand-down the real IP addresses from our firewall to the backend. To lessen the privacy implications of this, we now clear the logs more often. This was a necessary compromise.
+
+**The current setup is that we only log warning messages. During maintainance periods, however, we log who has joined with which account and what IP address. This is required for example to configure our load-balancing. This is why IP addresses are mentioned in our [privacy policy]({{< relref "privacy" >}}).**
+
+\- Marcel & Adam
