@@ -20,4 +20,4 @@ We fixed the problem by using different proxy features to hand-down the real IP 
 
 \- Marcel & Adam
 
-* *If you network is a CGN with NAT444 it's time to switch your provider btw.*
+\* *If your network is a CGN with NAT444 it's time to switch your provider btw.*
