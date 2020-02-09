@@ -28,7 +28,7 @@ We recommend the following, as they all offer the features you would expect from
 |End-to-End Encrypted File-Sending | ✓ | ✓ |
 |"Modern UI"                      | ✗ | ✓ |
 |Message Sync (Carbon & MAM)      | ✓ | ✓ |
-|Tay Icon                         | ✓ | ✗ |
+|Tray Icon                         | ✓ | ✗ |
 |Notifications                    | ✓ | ✓ |
 |Channel/Group Configuration      | ✓ | ✓ |
 |Avatars                          | ✓ | ✓ |
