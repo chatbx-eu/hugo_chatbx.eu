@@ -347,7 +347,7 @@ html, body {
 	margin-right: auto;
 
 	display: flex;
-	justify-content: right;
+	justify-content: flex-end;
 }
 
 @media (max-width: 800px) {

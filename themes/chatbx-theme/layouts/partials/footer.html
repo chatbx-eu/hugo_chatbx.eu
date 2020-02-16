@@ -6,7 +6,7 @@
 			<div class="lang-menu-content">
 				{{ range $.AllTranslations }}
 					{{ if eq .Lang $.Site.Language.Lang }}
-						<span class="lang-selected">{{ .Language.LanguageName }}</a>
+						<span class="lang-selected">{{ .Language.LanguageName }}</span>
 					{{ else }}
 						<a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
 					{{ end }}
