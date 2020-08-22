@@ -22,7 +22,7 @@ We recommend the following, as they all offer the features you would expect from
 |---------------------------------|:-----:|:----:|
 |Received Receipts                | ✓ | ✓ |
 |Read Receipts (Chat Markers)     | ✗ | ✓ |
-|Inline Images                    | ✗ | ✓ |
+|Inline Images                    | ✓ (with standard plug-in) | ✓ |
 |File Upload (HTTP-Upload)        | ✓ | ✓ |
 |End-to-End Encryption (OMEMO)    | ✓ | ✓ |
 |End-to-End Encrypted File-Sending | ✓ | ✓ |
@@ -38,9 +38,8 @@ We recommend the following, as they all offer the features you would expect from
 |Easy Quoting                     | ✗ | ✗ |
 |Good for Debugging XMPP          | ✓ | ✗ |
 |Setting Own Presence             | ✓ | ✗ |
-|Sent Message Editing             | ✓ | ✗ |
+|Sent Message Editing             | ✓ | ✓ |
 |Roster & Subscription Management | ✓ | ✓ (Implicit) |
-|OMEMO Trust Management           | Only Trust or Distrust | Trust, Reject, Verified; auto-accept new Keys until one is Verified |
 |Search History                   | ✓ (but unfriendly UI) | ✓ |
 |Supports Windows                 | ✓ | ✗ |
-|Stable Releases                  | ✓ | ✗ |
+|Stable Releases                  | ✓ | ✓ |
