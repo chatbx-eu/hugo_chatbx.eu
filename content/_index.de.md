@@ -2,4 +2,4 @@
 title: 'chatbx.eu'
 ---
 
-Dezentralisiertes Instant Messaging mit XMPP.
+Wir schließen. Mehr Infos im News bereich.
